@@ -3,12 +3,35 @@
 }
 
 body {
+  position: relative;
   width: 950px;
   min-width: 950px;
   margin: 0;
   color: var(--text);
-  background: var(--surface);
-  font-family: Roboto, Arial, sans-serif;
+  background:
+    radial-gradient(circle at top left, var(--page-glow-left), transparent 30%),
+    radial-gradient(circle at top right, var(--page-glow-right), transparent 36%),
+    linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+  font-family: var(--font-ui);
+  font-weight: 500;
+  line-height: 1.45;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background 360ms ease;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 18px 18px;
+  mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5), transparent 80%);
 }
 
 button {
@@ -17,21 +40,23 @@ button {
 
 h1 {
   margin: 0;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.25;
   font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
 h2 {
   margin: 0;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.25;
   font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
 h3 {
   margin: 0;
-  font-size: 13px;
+  font-size: 12.5px;
   line-height: 1.25;
   font-weight: 700;
 }
@@ -41,4 +66,11 @@ p {
   color: var(--muted);
   font-size: 12px;
   line-height: 1.45;
+  font-weight: 500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    transition: none;
+  }
 }

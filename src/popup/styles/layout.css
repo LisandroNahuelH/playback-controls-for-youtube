@@ -1,4 +1,6 @@
 .popup-shell {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -25,7 +27,8 @@
   max-height: 510px;
   overflow-y: auto;
   scrollbar-width: thin;
-  padding-right: 2px;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+  padding-right: 4px;
 }
 
 .popup-col--themes .reset-button {
@@ -38,7 +41,35 @@
   max-height: 510px;
   overflow-y: auto;
   scrollbar-width: thin;
-  padding-right: 2px;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+  padding-right: 4px;
+}
+
+.popup-col--themes::-webkit-scrollbar,
+.popup-col--guide::-webkit-scrollbar {
+  width: 10px;
+}
+
+.popup-col--themes::-webkit-scrollbar-track,
+.popup-col--guide::-webkit-scrollbar-track {
+  border-radius: 999px;
+  background: var(--scrollbar-track-bg);
+  box-shadow: var(--scrollbar-track-shadow);
+  border: 1px solid var(--scrollbar-track-border);
+}
+
+.popup-col--themes::-webkit-scrollbar-thumb,
+.popup-col--guide::-webkit-scrollbar-thumb {
+  min-height: 40px;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--scrollbar-thumb) 42%, white 58%),
+    var(--scrollbar-thumb) 48%,
+    var(--scrollbar-thumb-strong)
+  );
 }
 
 .popup-header {
@@ -46,6 +77,11 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
 }
 
 .section-heading {
@@ -57,18 +93,32 @@
 .reset-button {
   appearance: none;
   flex: 0 0 auto;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 7px 10px;
+  border: 1px solid var(--button-border);
+  border-radius: 12px;
+  padding: 9px 12px;
   background: var(--button-surface);
   color: var(--text);
+  box-shadow: var(--button-shadow);
   font-size: 12px;
   font-weight: 700;
   cursor: pointer;
+  transition:
+    border-color 160ms ease,
+    background 160ms ease,
+    box-shadow 160ms ease,
+    transform 120ms ease;
 }
 
 .reset-button:hover {
-  background: var(--surface-raised);
+  border-color: var(--button-hover-border);
+  background: var(--button-hover-bg);
+  box-shadow: var(--button-hover-shadow);
+}
+
+.reset-button:active {
+  border-color: var(--button-active-border);
+  background: var(--button-active-bg);
+  transform: translateY(1px);
 }
 
 .reset-button:focus-visible,
@@ -76,4 +126,10 @@
 .appearance-toggle:focus-visible {
   outline: 2px solid var(--focus);
   outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reset-button {
+    transition: none;
+  }
 }

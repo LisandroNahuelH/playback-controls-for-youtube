@@ -3,13 +3,15 @@
   justify-content: flex-start;
   min-width: 0;
   overflow: hidden;
-  padding: 18px 10px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  padding: 18px 12px;
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
   background:
     linear-gradient(90deg, var(--preview-grid) 1px, transparent 1px),
-    linear-gradient(180deg, var(--preview-start), var(--preview-end));
-  background-size: 22px 22px, auto;
+    linear-gradient(180deg, var(--preview-start), var(--preview-end)),
+    var(--card-bg);
+  background-size: 22px 22px, auto, auto;
+  box-shadow: var(--card-shadow);
 }
 
 .preview-bar {

@@ -12,22 +12,35 @@
   gap: 12px;
   width: 100%;
   min-height: 70px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 10px;
-  background: var(--surface-panel);
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  padding: 10px 12px;
+  background: var(--card-bg);
   color: var(--text);
+  box-shadow: var(--card-shadow);
   text-align: left;
   cursor: pointer;
+  transition:
+    border-color 160ms ease,
+    background 160ms ease,
+    box-shadow 160ms ease,
+    transform 120ms ease;
 }
 
 .theme-option:hover {
-  background: var(--surface-raised);
+  border-color: var(--button-hover-border);
+  background: var(--card-hover-bg);
+  box-shadow: var(--button-hover-shadow);
 }
 
 .theme-option[aria-pressed="true"] {
-  border-color: var(--accent);
-  box-shadow: inset 0 0 0 1px var(--accent);
+  border-color: var(--card-selected-border);
+  background: var(--button-active-bg);
+  box-shadow: var(--card-selected-shadow);
+}
+
+.theme-option:active {
+  transform: translateY(1px);
 }
 
 .theme-swatches {
@@ -41,8 +54,9 @@
   display: block;
   width: 16px;
   height: 28px;
-  border: 1px solid transparent;
-  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
 }
 
 .theme-copy {
@@ -62,4 +76,11 @@
   color: var(--muted);
   font-size: 12px;
   line-height: 1.35;
+  font-weight: 500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-option {
+    transition: none;
+  }
 }
