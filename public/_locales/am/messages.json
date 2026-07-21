@@ -1,0 +1,412 @@
+{
+  "extName": {
+    "message": "YouTube™ Playback Speed Premium11: ፈጣን ቪዲዮ፣ ብጁ ፍጥነት",
+    "description": "Extension name shown in Chrome and the Chrome Web Store."
+  },
+  "extDescription": {
+    "message": "ወደ YouTube መጫወቻ ፈጣን የመጫወቻ ፍጥነት፣ መዝለል፣ ጥራት፣ የግርጌ ጽሑፎች እና የቅጥ አቀማመጥ መቆጣጠሪያዎችን ይጨምራል።",
+    "description": "Extension description shown in Chrome and the Chrome Web Store."
+  },
+  "extActionTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Tooltip shown when hovering the extension toolbar icon."
+  },
+  "popupDocumentTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Document title for the extension popup page."
+  },
+  "popupHeaderTitle": {
+    "message": "የመቆጣጠሪያ አሞሌ ቅጥ",
+    "description": "Main heading in the extension popup."
+  },
+  "popupHeaderSubtitle": {
+    "message": "ለ YouTube መቆጣጠሪያዎችዎ ገጽታ ይምረጡ።",
+    "description": "Supporting text below the popup main heading."
+  },
+  "popupAppearanceToggleToLightAriaLabel": {
+    "message": "ፖፕአፕን ወደ ብርሃን ሁነታ ቀይር",
+    "description": "Accessible label for switching the popup to light mode."
+  },
+  "popupAppearanceToggleToDarkAriaLabel": {
+    "message": "ፖፕአፕን ወደ ጨለማ ሁነታ ቀይር",
+    "description": "Accessible label for switching the popup to dark mode."
+  },
+  "previewAriaLabel": {
+    "message": "የመቆጣጠሪያ አሞሌ ቅድመ እይታ",
+    "description": "Accessible label for the theme preview bar in the popup."
+  },
+  "themesTitle": {
+    "message": "ገጽታዎች",
+    "description": "Section heading for the theme picker in the popup."
+  },
+  "themesSubtitle": {
+    "message": "የመጫወቻ አሞሌ ቀለሞችን ይምረጡ።",
+    "description": "Supporting text for the theme picker section."
+  },
+  "availableThemesAriaLabel": {
+    "message": "የሚገኙ ገጽታዎች",
+    "description": "Accessible label for the theme list in the popup."
+  },
+  "buttonGuideTitle": {
+    "message": "የአዝራር መመሪያ",
+    "description": "Section heading for the control button guide in the popup."
+  },
+  "buttonGuideSubtitle": {
+    "message": "ግራ ጠቅታ እና ቀኝ ጠቅታ የተለያዩ ተግባራት ሊያከናውኑ ይችላሉ።",
+    "description": "Supporting text for the button guide section."
+  },
+  "leftClickLabel": {
+    "message": "ግራ ጠቅታ",
+    "description": "Label for left-click actions in the button guide."
+  },
+  "rightClickLabel": {
+    "message": "ቀኝ ጠቅታ",
+    "description": "Label for right-click actions in the button guide."
+  },
+  "resetButton": {
+    "message": "ዳግም አስጀምር",
+    "description": "Button that restores the default control bar theme."
+  },
+  "guideCategorySpeed": {
+    "message": "ፍጥነት",
+    "description": "Button guide category for playback speed controls."
+  },
+  "guideSpeedLeftClick": {
+    "message": "ፍጥነቱን በ 0.05x ይቀይራል።",
+    "description": "Button guide left-click action for speed buttons."
+  },
+  "guideSpeedRightClick": {
+    "message": "ፍጥነቱን በ 0.10x ይቀይራል።",
+    "description": "Button guide right-click action for speed buttons."
+  },
+  "guideCategoryCurrentSpeed": {
+    "message": "የአሁኑ ፍጥነት",
+    "description": "Button guide category for the live speed indicator."
+  },
+  "guideCurrentSpeedLeftClick": {
+    "message": "ፍጥነቱን ወደ 1.00x ዳግም ያስጀምራል።",
+    "description": "Button guide left-click action for the speed indicator."
+  },
+  "guideCurrentSpeedRightClick": {
+    "message": "ሁለተኛ ተግባር የለም።",
+    "description": "Button guide right-click action for the speed indicator."
+  },
+  "guideCategoryVolume": {
+    "message": "ድምጽ",
+    "description": "Button guide category for volume controls."
+  },
+  "guideVolumeLeftClick": {
+    "message": "ድምጹን በ 10% ይቀይራል። ከ 100% በላይ እስከ 200% ድረስ ማጎልበት ይችላል።",
+    "description": "Button guide left-click action for volume buttons."
+  },
+  "guideVolumeRightClick": {
+    "message": "ድምጹን በ 20% ይቀይራል።",
+    "description": "Button guide right-click action for volume buttons."
+  },
+  "guideCategoryCurrentVolume": {
+    "message": "የአሁኑ ድምጽ",
+    "description": "Button guide category for the live volume indicator."
+  },
+  "guideCurrentVolumeLeftClick": {
+    "message": "ድምጹን ወደ 100% ዳግም ያስጀምራል።",
+    "description": "Button guide left-click action for the volume indicator."
+  },
+  "guideCurrentVolumeRightClick": {
+    "message": "ሁለተኛ ተግባር የለም።",
+    "description": "Button guide right-click action for the volume indicator."
+  },
+  "guideCategoryTime": {
+    "message": "ጊዜ",
+    "description": "Button guide category for seek controls."
+  },
+  "guideTimeLeftClick": {
+    "message": "በተገለጸው መጠን ወደኋላ ወይም ወደፊት ይዝለላል።",
+    "description": "Button guide left-click action for seek buttons."
+  },
+  "guideTimeRightClick": {
+    "message": "እስከ ነጥቡ ድረስ በ 4x ፈጣን ወደፊት ይዝለላል።",
+    "description": "Button guide right-click action for seek buttons."
+  },
+  "guideCategoryResolution": {
+    "message": "ጥራት",
+    "description": "Button guide category for quality controls."
+  },
+  "guideResolutionLeftClick": {
+    "message": "አውቶ ወይም ተቀራራቢውን ጥራት ይመርጣል።",
+    "description": "Button guide left-click action for quality buttons."
+  },
+  "guideResolutionRightClick": {
+    "message": "የጥራት አዝራር ግቡን ይቀይራል።",
+    "description": "Button guide right-click action for quality buttons."
+  },
+  "guideCategoryMusic": {
+    "message": "የሙዚቃ ሁነታ",
+    "description": "Button guide category for the music mode toggle."
+  },
+  "guideMusicLeftClick": {
+    "message": "የሙዚቃ ሁነታን ያንቃ ወይም ያጥፋ። ማያ ጨለማ ያደርጋል እና ዝቅተኛውን ጥራት ይመርጣል ለውሂብ እና ለጭንቀል ቁጠባ።",
+    "description": "Button guide left-click action for the music mode button."
+  },
+  "guideMusicRightClick": {
+    "message": "ሁለተኛ ተግባር የለም።",
+    "description": "Button guide right-click action for the music mode button."
+  },
+  "guideCategoryCaptions": {
+    "message": "የግርጌ ጽሑፎች",
+    "description": "Button guide category for the captions toggle."
+  },
+  "guideCaptionsLeftClick": {
+    "message": "ሲገኙ የግርጌ ጽሑፎችን ያንቃ ወይም ያጥፋ።",
+    "description": "Button guide left-click action for the captions button."
+  },
+  "guideCaptionsRightClick": {
+    "message": "ሁለተኛ ተግባር የለም።",
+    "description": "Button guide right-click action for the captions button."
+  },
+  "themeClassicName": {
+    "message": "ክላሲያዊ",
+    "description": "Display name for the Classic control bar theme."
+  },
+  "themeClassicDescription": {
+    "message": "ነጭ አዝራሮች ያሉት ብርቱካነማ-ግራት አሞሌ፣ ከመጀመሪያው ቅጥ ጋር የሚዛመድ።",
+    "description": "Description for the Classic control bar theme."
+  },
+  "themeDarkName": {
+    "message": "ጨለማ",
+    "description": "Display name for the Dark control bar theme."
+  },
+  "themeDarkDescription": {
+    "message": "በሌሊት ቪዲዮ ለመመልከት የተስማማ ብርቱካነማ-ግራት አሞሌ።",
+    "description": "Description for the Dark control bar theme."
+  },
+  "themeYoutubeName": {
+    "message": "YouTube",
+    "description": "Display name for the YouTube control bar theme."
+  },
+  "themeYoutubeDescription": {
+    "message": "ቀይ፣ ነጭ እና ጥቁር ከተወደደው የመድረክ አክሰንት ጋር።",
+    "description": "Description for the YouTube control bar theme."
+  },
+  "themeOceanName": {
+    "message": "ውቅያኖስ",
+    "description": "Display name for the Ocean control bar theme."
+  },
+  "themeOceanDescription": {
+    "message": "በቪዲዮ ላይ ግልጽ ለማንበብ የሚረዳ ለስላሳ ሰማያዊ ቀለሞች።",
+    "description": "Description for the Ocean control bar theme."
+  },
+  "themeRoseName": {
+    "message": "ቀና ከበሮ",
+    "description": "Display name for the Rose control bar theme."
+  },
+  "themeRoseDescription": {
+    "message": "ሞቃታዊ፣ ትንሽ እና ለስላሳ አክሰንት ያለው።",
+    "description": "Description for the Rose control bar theme."
+  },
+  "speedDecreaseLabel": {
+    "message": "-5% | -10%",
+    "description": "Visible label for the decrease-speed button on the YouTube control bar."
+  },
+  "speedDecreaseTitle": {
+    "message": "ጠቅታ፡ በ 0.05x ቀንስ። ቀኝ ጠቅታ፡ በ 0.10x ቀንስ",
+    "description": "Tooltip for the decrease-speed button on the YouTube control bar."
+  },
+  "speedIncreaseLabel": {
+    "message": "+5% | +10%",
+    "description": "Visible label for the increase-speed button on the YouTube control bar."
+  },
+  "speedIncreaseTitle": {
+    "message": "ጠቅታ፡ በ 0.05x ጨምር። ቀኝ ጠቅታ፡ በ 0.10x ጨምር",
+    "description": "Tooltip for the increase-speed button on the YouTube control bar."
+  },
+  "seekRewind15Label": {
+    "message": "←15s",
+    "description": "Visible label for the 15-second rewind button."
+  },
+  "seekRewind15Title": {
+    "message": "15 ሰከንድ ወደኋላ አጠንጥን",
+    "description": "Tooltip for the 15-second rewind button."
+  },
+  "seekRewind30Label": {
+    "message": "←30s",
+    "description": "Visible label for the 30-second rewind button."
+  },
+  "seekRewind30Title": {
+    "message": "30 ሰከንድ ወደኋላ አጠንጥን",
+    "description": "Tooltip for the 30-second rewind button."
+  },
+  "seekRewind60Label": {
+    "message": "←60s",
+    "description": "Visible label for the 60-second rewind button."
+  },
+  "seekRewind60Title": {
+    "message": "60 ሰከንድ ወደኋላ አጠንጥን",
+    "description": "Tooltip for the 60-second rewind button."
+  },
+  "seekForward15Label": {
+    "message": "15s→",
+    "description": "Visible label for the 15-second forward button."
+  },
+  "seekForward15Title": {
+    "message": "15 ሰከንድ ወደፊት አጠንጥን",
+    "description": "Tooltip for the 15-second forward button."
+  },
+  "seekForward30Label": {
+    "message": "30s→",
+    "description": "Visible label for the 30-second forward button."
+  },
+  "seekForward30Title": {
+    "message": "30 ሰከንድ ወደፊት አጠንጥን",
+    "description": "Tooltip for the 30-second forward button."
+  },
+  "seekForward60Label": {
+    "message": "60s→",
+    "description": "Visible label for the 60-second forward button."
+  },
+  "seekForward60Title": {
+    "message": "60 ሰከንድ ወደፊት አጠንጥን",
+    "description": "Tooltip for the 60-second forward button."
+  },
+  "rateResetAriaLabel": {
+    "message": "የመጫወቻ ፍጥነትን ወደ 1.00x ዳግም አስጀምር",
+    "description": "Accessible label for the live playback speed indicator button."
+  },
+  "rateResetTitle": {
+    "message": "የመጫወቻ ፍጥነትን ወደ 1.00x ዳግም አስጀምር",
+    "description": "Tooltip for the live playback speed indicator button."
+  },
+  "qualityAutoLabel": {
+    "message": "Auto",
+    "description": "Visible label for the automatic quality button."
+  },
+  "qualityAutoTitle": {
+    "message": "የ YouTube አውቶ ጥራት ይምረጡ",
+    "description": "Tooltip for the automatic quality button."
+  },
+  "qualityResolutionTitle": {
+    "message": "$RESOLUTION$p ወይም ተቀራራቢውን የሚገኝ ጥራት ይምረጡ",
+    "placeholders": {
+      "resolution": {
+        "content": "$1",
+        "example": "1080"
+      }
+    },
+    "description": "Tooltip for a fixed-resolution quality button on the YouTube control bar."
+  },
+  "captionsButtonLabel": {
+    "message": "CC",
+    "description": "Visible label for the captions toggle button."
+  },
+  "musicModeEnableAriaLabel": {
+    "message": "የሙዚቃ ሁነታን አንቃ",
+    "description": "Accessible label when music mode is disabled."
+  },
+  "musicModeEnableTitle": {
+    "message": "የሙዚቃ ሁነታን አንቃ",
+    "description": "Tooltip when music mode is disabled."
+  },
+  "musicModeDisableAriaLabel": {
+    "message": "የሙዚቃ ሁነታን አጥፋ",
+    "description": "Accessible label when music mode is enabled."
+  },
+  "musicModeDisableTitle": {
+    "message": "የሙዚቃ ሁነታን አጥፋ",
+    "description": "Tooltip when music mode is enabled."
+  },
+  "captionsEnableAriaLabel": {
+    "message": "የግርጌ ጽሑፎችን አንቃ",
+    "description": "Accessible label when captions are disabled."
+  },
+  "captionsDisableAriaLabel": {
+    "message": "የግርጌ ጽሑፎችን አጥፋ",
+    "description": "Accessible label when captions are enabled."
+  },
+  "captionsEnableTitle": {
+    "message": "የግርጌ ጽሑፎችን አንቃ (Z)",
+    "description": "Tooltip when captions are available but disabled."
+  },
+  "captionsDisableTitle": {
+    "message": "የግርጌ ጽሑፎችን አጥፋ (Z)",
+    "description": "Tooltip when captions are enabled."
+  },
+  "captionsUnavailableTitle": {
+    "message": "ለዚህ ቪዲዮ የግርጌ ጽሑፎች አይገኙም",
+    "description": "Tooltip when captions cannot be toggled for the current video."
+  },
+  "pinEnableAriaLabel": {
+    "message": "የመጫወቻ መቆጣጠሪያዎችን አጣብቅ",
+    "description": "Accessible label when player controls are not pinned."
+  },
+  "pinEnableTitle": {
+    "message": "የመጫወቻ መቆጣጠሪያዎችን አጣብቅ",
+    "description": "Tooltip when player controls are not pinned."
+  },
+  "pinDisableAriaLabel": {
+    "message": "የመጫወቻ መቆጣጠሪያዎችን አንቀርቅር",
+    "description": "Accessible label when player controls are pinned."
+  },
+  "pinDisableTitle": {
+    "message": "የመጫወቻ መቆጣጠሪያዎችን አንቀርቅር",
+    "description": "Tooltip when player controls are pinned."
+  },
+  "controlBarSectionsTitle": {
+    "message": "የሚታዩ ክፍሎች",
+    "description": "Section heading for choosing which control bar groups are visible on YouTube."
+  },
+  "controlBarSectionsSubtitle": {
+    "message": "በመጫወቻ አሞሌ ላይ የሚታዩ ቡድኖችን ይምረጡ።",
+    "description": "Supporting text for the visible control bar sections picker."
+  },
+  "controlBarSectionsAriaLabel": {
+    "message": "የሚታዩ የመቆጣጠሪያ አሞሌ ክፍሎች",
+    "description": "Accessible label for the visible control bar sections switch list."
+  },
+  "controlBarSectionTime": {
+    "message": "የጊዜ መቆጣጠሪያዎች",
+    "description": "Label for the seek/time control bar section visibility switch."
+  },
+  "controlBarSectionSpeed": {
+    "message": "የፍጥነት መቆጣጠሪያዎች",
+    "description": "Label for the playback speed control bar section visibility switch."
+  },
+  "controlBarSectionQuality": {
+    "message": "የጥራት መቆጣጠሪያዎች",
+    "description": "Label for the video quality control bar section visibility switch."
+  },
+  "controlBarSectionMusic": {
+    "message": "የሙዚቃ ሁነታ",
+    "description": "Label for the music mode control bar section visibility switch."
+  },
+  "controlBarSectionCaptions": {
+    "message": "የግርጌ ጽሑፎች",
+    "description": "Label for the captions control bar section visibility switch."
+  },
+  "controlBarSectionPin": {
+    "message": "መቆጣጠሪያዎችን አጣብቅ",
+    "description": "Label for the pin controls section visibility switch."
+  },
+  "resetSectionsButton": {
+    "message": "ክፍሎችን ዳግም አስጀምር",
+    "description": "Button that restores the default visible control bar sections."
+  },
+  "controlBarSectionVolume": {
+    "message": "የድምጽ መቆጣጠሪያዎች",
+    "description": "Label for the volume control bar section visibility switch."
+  },
+  "volumeDecreaseLabel": {
+    "message": "🔉 -10%",
+    "description": "Visible label for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeDecreaseTitle": {
+    "message": "ጠቅታ፡ ድምጽን በ 10% ቀንስ። ቀኝ ጠቅታ፡ በ 20% ቀንስ",
+    "description": "Tooltip for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseLabel": {
+    "message": "🔊 +10%",
+    "description": "Visible label for the increase-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseTitle": {
+    "message": "ጠቅታ፡ ድምጽን በ 10% ጨምር። ቀኝ ጠቅታ፡ በ 20% ጨምር",
+    "description": "Tooltip for the increase-volume button on the YouTube control bar."
+  }
+}

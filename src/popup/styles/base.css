@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 950px;
+  min-width: 950px;
+  margin: 0;
+  color: var(--text);
+  background: var(--surface);
+  font-family: Roboto, Arial, sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+h2 {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+h3 {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}

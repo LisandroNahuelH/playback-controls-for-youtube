@@ -1,0 +1,412 @@
+{
+  "extName": {
+    "message": "YouTube™ Playback Speed Premium11: Γρηγορότερα Βίντεο, Έλεγχος Ταχύτητας",
+    "description": "Extension name shown in Chrome and the Chrome Web Store."
+  },
+  "extDescription": {
+    "message": "Προσθέτει γρήγορα στοιχεία ελέγχου ταχύτητας αναπαραγωγής, μετάβασης, ποιότητας, υποτίτλων και στυλ στον αναπαραγωγέα YouTube.",
+    "description": "Extension description shown in Chrome and the Chrome Web Store."
+  },
+  "extActionTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Tooltip shown when hovering the extension toolbar icon."
+  },
+  "popupDocumentTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Document title for the extension popup page."
+  },
+  "popupHeaderTitle": {
+    "message": "Στυλ γραμμής ελέγχου",
+    "description": "Main heading in the extension popup."
+  },
+  "popupHeaderSubtitle": {
+    "message": "Επιλέξτε το θέμα για τα στοιχεία ελέγχου YouTube.",
+    "description": "Supporting text below the popup main heading."
+  },
+  "popupAppearanceToggleToLightAriaLabel": {
+    "message": "Εναλλαγή αναδυόμενου σε φωτεινή λειτουργία",
+    "description": "Accessible label for switching the popup to light mode."
+  },
+  "popupAppearanceToggleToDarkAriaLabel": {
+    "message": "Εναλλαγή αναδυόμενου σε σκοτεινή λειτουργία",
+    "description": "Accessible label for switching the popup to dark mode."
+  },
+  "previewAriaLabel": {
+    "message": "Προεπισκόπηση γραμμής ελέγχου",
+    "description": "Accessible label for the theme preview bar in the popup."
+  },
+  "themesTitle": {
+    "message": "Θέματα",
+    "description": "Section heading for the theme picker in the popup."
+  },
+  "themesSubtitle": {
+    "message": "Επιλέξτε τα χρώματα της γραμμής αναπαραγωγής.",
+    "description": "Supporting text for the theme picker section."
+  },
+  "availableThemesAriaLabel": {
+    "message": "Διαθέσιμα θέματα",
+    "description": "Accessible label for the theme list in the popup."
+  },
+  "buttonGuideTitle": {
+    "message": "Οδηγός κουμπιών",
+    "description": "Section heading for the control button guide in the popup."
+  },
+  "buttonGuideSubtitle": {
+    "message": "Το αριστερό και το δεξί κλικ μπορούν να εκτελέσουν διαφορετικές ενέργειες.",
+    "description": "Supporting text for the button guide section."
+  },
+  "leftClickLabel": {
+    "message": "Αριστερό κλικ",
+    "description": "Label for left-click actions in the button guide."
+  },
+  "rightClickLabel": {
+    "message": "Δεξί κλικ",
+    "description": "Label for right-click actions in the button guide."
+  },
+  "resetButton": {
+    "message": "Επαναφορά",
+    "description": "Button that restores the default control bar theme."
+  },
+  "guideCategorySpeed": {
+    "message": "Ταχύτητα",
+    "description": "Button guide category for playback speed controls."
+  },
+  "guideSpeedLeftClick": {
+    "message": "Αλλάζει την ταχύτητα κατά 0,05x.",
+    "description": "Button guide left-click action for speed buttons."
+  },
+  "guideSpeedRightClick": {
+    "message": "Αλλάζει την ταχύτητα κατά 0,10x.",
+    "description": "Button guide right-click action for speed buttons."
+  },
+  "guideCategoryCurrentSpeed": {
+    "message": "Τρέχουσα ταχύτητα",
+    "description": "Button guide category for the live speed indicator."
+  },
+  "guideCurrentSpeedLeftClick": {
+    "message": "Επαναφέρει την ταχύτητα σε 1,00x.",
+    "description": "Button guide left-click action for the speed indicator."
+  },
+  "guideCurrentSpeedRightClick": {
+    "message": "Καμία δευτερεύουσα ενέργεια.",
+    "description": "Button guide right-click action for the speed indicator."
+  },
+  "guideCategoryVolume": {
+    "message": "Ένταση",
+    "description": "Button guide category for volume controls."
+  },
+  "guideVolumeLeftClick": {
+    "message": "Αλλάζει την ένταση κατά 10%. Μπορεί να ξεπεράσει το 100% έως 200%.",
+    "description": "Button guide left-click action for volume buttons."
+  },
+  "guideVolumeRightClick": {
+    "message": "Αλλάζει την ένταση κατά 20%.",
+    "description": "Button guide right-click action for volume buttons."
+  },
+  "guideCategoryCurrentVolume": {
+    "message": "Τρέχουσα ένταση",
+    "description": "Button guide category for the live volume indicator."
+  },
+  "guideCurrentVolumeLeftClick": {
+    "message": "Επαναφέρει την ένταση στο 100%.",
+    "description": "Button guide left-click action for the volume indicator."
+  },
+  "guideCurrentVolumeRightClick": {
+    "message": "Χωρίς δευτερεύουσα ενέργεια.",
+    "description": "Button guide right-click action for the volume indicator."
+  },
+  "guideCategoryTime": {
+    "message": "Χρόνος",
+    "description": "Button guide category for seek controls."
+  },
+  "guideTimeLeftClick": {
+    "message": "Μεταπηδά προς τα πίσω ή μπροστά κατά το αναφερόμενο ποσό.",
+    "description": "Button guide left-click action for seek buttons."
+  },
+  "guideTimeRightClick": {
+    "message": "Προχωρά γρήγορα με 4x μέχρι το σημείο.",
+    "description": "Button guide right-click action for seek buttons."
+  },
+  "guideCategoryResolution": {
+    "message": "Ανάλυση",
+    "description": "Button guide category for quality controls."
+  },
+  "guideResolutionLeftClick": {
+    "message": "Επιλέγει Auto ή την πλησιέστερη ανάλυση.",
+    "description": "Button guide left-click action for quality buttons."
+  },
+  "guideResolutionRightClick": {
+    "message": "Αλλάζει τον στόχο του κουμπιού ανάλυσης.",
+    "description": "Button guide right-click action for quality buttons."
+  },
+  "guideCategoryMusic": {
+    "message": "Λειτουργία μουσικής",
+    "description": "Button guide category for the music mode toggle."
+  },
+  "guideMusicLeftClick": {
+    "message": "Ενεργοποιεί ή απενεργοποιεί τη λειτουργία μουσικής. Κάνει την οθόνη μαύρη και επιλέγει την ελάχιστη ανάλυση για εξοικονόμηση δεδομένων και φόρτου.",
+    "description": "Button guide left-click action for the music mode button."
+  },
+  "guideMusicRightClick": {
+    "message": "Χωρίς δευτερεύουσα ενέργεια.",
+    "description": "Button guide right-click action for the music mode button."
+  },
+  "guideCategoryCaptions": {
+    "message": "Υπότιτλοι",
+    "description": "Button guide category for the captions toggle."
+  },
+  "guideCaptionsLeftClick": {
+    "message": "Ενεργοποιεί ή απενεργοποιεί τους υπότιτλους όταν είναι διαθέσιμοι.",
+    "description": "Button guide left-click action for the captions button."
+  },
+  "guideCaptionsRightClick": {
+    "message": "Χωρίς δευτερεύουσα ενέργεια.",
+    "description": "Button guide right-click action for the captions button."
+  },
+  "themeClassicName": {
+    "message": "Κλασικό",
+    "description": "Display name for the Classic control bar theme."
+  },
+  "themeClassicDescription": {
+    "message": "Ανοιχτό γκρι γραμμή με λευκά κουμπιά, στο αρχικό στυλ.",
+    "description": "Description for the Classic control bar theme."
+  },
+  "themeDarkName": {
+    "message": "Σκούρο",
+    "description": "Display name for the Dark control bar theme."
+  },
+  "themeDarkDescription": {
+    "message": "Γραμμή φιλική στο χαμηλό φως για παρακολούθηση βίντεο τη νύχτα.",
+    "description": "Description for the Dark control bar theme."
+  },
+  "themeYoutubeName": {
+    "message": "YouTube",
+    "description": "Display name for the YouTube control bar theme."
+  },
+  "themeYoutubeDescription": {
+    "message": "Κόκκινο, λευκό και μαύρο με το οικείο χρωματικό τονισμό της πλατφόρμας.",
+    "description": "Description for the YouTube control bar theme."
+  },
+  "themeOceanName": {
+    "message": "Ωκεανός",
+    "description": "Display name for the Ocean control bar theme."
+  },
+  "themeOceanDescription": {
+    "message": "Απαλά μπλε με καθαρή αναγνωσιμότητα πάνω στο βίντεο.",
+    "description": "Description for the Ocean control bar theme."
+  },
+  "themeRoseName": {
+    "message": "Ροζ",
+    "description": "Display name for the Rose control bar theme."
+  },
+  "themeRoseDescription": {
+    "message": "Ζεστό, συμπαγές και με απαλές αποχρώσεις.",
+    "description": "Description for the Rose control bar theme."
+  },
+  "speedDecreaseLabel": {
+    "message": "-5% | -10%",
+    "description": "Visible label for the decrease-speed button on the YouTube control bar."
+  },
+  "speedDecreaseTitle": {
+    "message": "Κλικ: μείωση 0,05x. Δεξί κλικ: μείωση 0,10x",
+    "description": "Tooltip for the decrease-speed button on the YouTube control bar."
+  },
+  "speedIncreaseLabel": {
+    "message": "+5% | +10%",
+    "description": "Visible label for the increase-speed button on the YouTube control bar."
+  },
+  "speedIncreaseTitle": {
+    "message": "Κλικ: αύξηση 0,05x. Δεξί κλικ: αύξηση 0,10x",
+    "description": "Tooltip for the increase-speed button on the YouTube control bar."
+  },
+  "seekRewind15Label": {
+    "message": "←15s",
+    "description": "Visible label for the 15-second rewind button."
+  },
+  "seekRewind15Title": {
+    "message": "Επαναφορά 15 δευτερολέπτων",
+    "description": "Tooltip for the 15-second rewind button."
+  },
+  "seekRewind30Label": {
+    "message": "←30s",
+    "description": "Visible label for the 30-second rewind button."
+  },
+  "seekRewind30Title": {
+    "message": "Επαναφορά 30 δευτερολέπτων",
+    "description": "Tooltip for the 30-second rewind button."
+  },
+  "seekRewind60Label": {
+    "message": "←60s",
+    "description": "Visible label for the 60-second rewind button."
+  },
+  "seekRewind60Title": {
+    "message": "Επαναφορά 60 δευτερολέπτων",
+    "description": "Tooltip for the 60-second rewind button."
+  },
+  "seekForward15Label": {
+    "message": "15s→",
+    "description": "Visible label for the 15-second forward button."
+  },
+  "seekForward15Title": {
+    "message": "Προώθηση 15 δευτερολέπτων",
+    "description": "Tooltip for the 15-second forward button."
+  },
+  "seekForward30Label": {
+    "message": "30s→",
+    "description": "Visible label for the 30-second forward button."
+  },
+  "seekForward30Title": {
+    "message": "Προώθηση 30 δευτερολέπτων",
+    "description": "Tooltip for the 30-second forward button."
+  },
+  "seekForward60Label": {
+    "message": "60s→",
+    "description": "Visible label for the 60-second forward button."
+  },
+  "seekForward60Title": {
+    "message": "Προώθηση 60 δευτερολέπτων",
+    "description": "Tooltip for the 60-second forward button."
+  },
+  "rateResetAriaLabel": {
+    "message": "Επαναφορά ταχύτητας αναπαραγωγής σε 1,00x",
+    "description": "Accessible label for the live playback speed indicator button."
+  },
+  "rateResetTitle": {
+    "message": "Επαναφορά ταχύτητας αναπαραγωγής σε 1,00x",
+    "description": "Tooltip for the live playback speed indicator button."
+  },
+  "qualityAutoLabel": {
+    "message": "Auto",
+    "description": "Visible label for the automatic quality button."
+  },
+  "qualityAutoTitle": {
+    "message": "Επιλογή αυτόματης ποιότητας YouTube",
+    "description": "Tooltip for the automatic quality button."
+  },
+  "qualityResolutionTitle": {
+    "message": "Επιλογή $RESOLUTION$p ή της πλησιέστερης διαθέσιμης ανάλυσης",
+    "placeholders": {
+      "resolution": {
+        "content": "$1",
+        "example": "1080"
+      }
+    },
+    "description": "Tooltip for a fixed-resolution quality button on the YouTube control bar."
+  },
+  "captionsButtonLabel": {
+    "message": "CC",
+    "description": "Visible label for the captions toggle button."
+  },
+  "musicModeEnableAriaLabel": {
+    "message": "Ενεργοποίηση λειτουργίας μουσικής",
+    "description": "Accessible label when music mode is disabled."
+  },
+  "musicModeEnableTitle": {
+    "message": "Ενεργοποίηση λειτουργίας μουσικής",
+    "description": "Tooltip when music mode is disabled."
+  },
+  "musicModeDisableAriaLabel": {
+    "message": "Απενεργοποίηση λειτουργίας μουσικής",
+    "description": "Accessible label when music mode is enabled."
+  },
+  "musicModeDisableTitle": {
+    "message": "Απενεργοποίηση λειτουργίας μουσικής",
+    "description": "Tooltip when music mode is enabled."
+  },
+  "captionsEnableAriaLabel": {
+    "message": "Ενεργοποίηση υποτίτλων",
+    "description": "Accessible label when captions are disabled."
+  },
+  "captionsDisableAriaLabel": {
+    "message": "Απενεργοποίηση υποτίτλων",
+    "description": "Accessible label when captions are enabled."
+  },
+  "captionsEnableTitle": {
+    "message": "Ενεργοποίηση υποτίτλων (Z)",
+    "description": "Tooltip when captions are available but disabled."
+  },
+  "captionsDisableTitle": {
+    "message": "Απενεργοποίηση υποτίτλων (Z)",
+    "description": "Tooltip when captions are enabled."
+  },
+  "captionsUnavailableTitle": {
+    "message": "Οι υπότιτλοι δεν είναι διαθέσιμοι για αυτό το βίντεο",
+    "description": "Tooltip when captions cannot be toggled for the current video."
+  },
+  "pinEnableAriaLabel": {
+    "message": "Καρφίτσωμα στοιχείων ελέγχου αναπαραγωγέα",
+    "description": "Accessible label when player controls are not pinned."
+  },
+  "pinEnableTitle": {
+    "message": "Καρφίτσωμα στοιχείων ελέγχου αναπαραγωγέα",
+    "description": "Tooltip when player controls are not pinned."
+  },
+  "pinDisableAriaLabel": {
+    "message": "Ξεκαρφίτσωμα στοιχείων ελέγχου αναπαραγωγέα",
+    "description": "Accessible label when player controls are pinned."
+  },
+  "pinDisableTitle": {
+    "message": "Ξεκαρφίτσωμα στοιχείων ελέγχου αναπαραγωγέα",
+    "description": "Tooltip when player controls are pinned."
+  },
+  "controlBarSectionsTitle": {
+    "message": "Ορατές ενότητες",
+    "description": "Section heading for choosing which control bar groups are visible on YouTube."
+  },
+  "controlBarSectionsSubtitle": {
+    "message": "Επιλέξτε ποιες ομάδες εμφανίζονται στη γραμμή αναπαραγωγής.",
+    "description": "Supporting text for the visible control bar sections picker."
+  },
+  "controlBarSectionsAriaLabel": {
+    "message": "Ορατές ενότητες γραμμής ελέγχου",
+    "description": "Accessible label for the visible control bar sections switch list."
+  },
+  "controlBarSectionTime": {
+    "message": "Έλεγχοι χρόνου",
+    "description": "Label for the seek/time control bar section visibility switch."
+  },
+  "controlBarSectionSpeed": {
+    "message": "Έλεγχοι ταχύτητας",
+    "description": "Label for the playback speed control bar section visibility switch."
+  },
+  "controlBarSectionQuality": {
+    "message": "Έλεγχοι ποιότητας",
+    "description": "Label for the video quality control bar section visibility switch."
+  },
+  "controlBarSectionMusic": {
+    "message": "Λειτουργία μουσικής",
+    "description": "Label for the music mode control bar section visibility switch."
+  },
+  "controlBarSectionCaptions": {
+    "message": "Υπότιτλοι",
+    "description": "Label for the captions control bar section visibility switch."
+  },
+  "controlBarSectionPin": {
+    "message": "Καρφίτσωμα ελέγχων",
+    "description": "Label for the pin controls section visibility switch."
+  },
+  "resetSectionsButton": {
+    "message": "Επαναφορά ενότητων",
+    "description": "Button that restores the default visible control bar sections."
+  },
+  "controlBarSectionVolume": {
+    "message": "Έλεγχοι έντασης",
+    "description": "Label for the volume control bar section visibility switch."
+  },
+  "volumeDecreaseLabel": {
+    "message": "🔉 -10%",
+    "description": "Visible label for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeDecreaseTitle": {
+    "message": "Κλικ: μείωση 10%. Δεξί κλικ: μείωση 20%",
+    "description": "Tooltip for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseLabel": {
+    "message": "🔊 +10%",
+    "description": "Visible label for the increase-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseTitle": {
+    "message": "Κλικ: αύξηση 10%. Δεξί κλικ: αύξηση 20%",
+    "description": "Tooltip for the increase-volume button on the YouTube control bar."
+  }
+}

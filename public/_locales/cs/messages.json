@@ -1,0 +1,412 @@
+{
+  "extName": {
+    "message": "YouTube™ Playback Speed Premium11: Rychlejší Videa, Vlastní Rychlost",
+    "description": "Extension name shown in Chrome and the Chrome Web Store."
+  },
+  "extDescription": {
+    "message": "Přidává rychlé ovládání rychlosti přehrávání, přeskakování, kvality, titulků a stylu do přehrávače YouTube.",
+    "description": "Extension description shown in Chrome and the Chrome Web Store."
+  },
+  "extActionTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Tooltip shown when hovering the extension toolbar icon."
+  },
+  "popupDocumentTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Document title for the extension popup page."
+  },
+  "popupHeaderTitle": {
+    "message": "Styl ovládacího panelu",
+    "description": "Main heading in the extension popup."
+  },
+  "popupHeaderSubtitle": {
+    "message": "Vyberte motiv pro ovládání YouTube.",
+    "description": "Supporting text below the popup main heading."
+  },
+  "popupAppearanceToggleToLightAriaLabel": {
+    "message": "Přepnout vyskakovací okno do světlého režimu",
+    "description": "Accessible label for switching the popup to light mode."
+  },
+  "popupAppearanceToggleToDarkAriaLabel": {
+    "message": "Přepnout vyskakovací okno do tmavého režimu",
+    "description": "Accessible label for switching the popup to dark mode."
+  },
+  "previewAriaLabel": {
+    "message": "Náhled ovládacího panelu",
+    "description": "Accessible label for the theme preview bar in the popup."
+  },
+  "themesTitle": {
+    "message": "Motivy",
+    "description": "Section heading for the theme picker in the popup."
+  },
+  "themesSubtitle": {
+    "message": "Vyberte barvy panelu přehrávače.",
+    "description": "Supporting text for the theme picker section."
+  },
+  "availableThemesAriaLabel": {
+    "message": "Dostupné motivy",
+    "description": "Accessible label for the theme list in the popup."
+  },
+  "buttonGuideTitle": {
+    "message": "Průvodce tlačítky",
+    "description": "Section heading for the control button guide in the popup."
+  },
+  "buttonGuideSubtitle": {
+    "message": "Levé a pravé kliknutí mohou provádět různé akce.",
+    "description": "Supporting text for the button guide section."
+  },
+  "leftClickLabel": {
+    "message": "Levé kliknutí",
+    "description": "Label for left-click actions in the button guide."
+  },
+  "rightClickLabel": {
+    "message": "Pravé kliknutí",
+    "description": "Label for right-click actions in the button guide."
+  },
+  "resetButton": {
+    "message": "Obnovit",
+    "description": "Button that restores the default control bar theme."
+  },
+  "guideCategorySpeed": {
+    "message": "Rychlost",
+    "description": "Button guide category for playback speed controls."
+  },
+  "guideSpeedLeftClick": {
+    "message": "Změní rychlost o 0,05x.",
+    "description": "Button guide left-click action for speed buttons."
+  },
+  "guideSpeedRightClick": {
+    "message": "Změní rychlost o 0,10x.",
+    "description": "Button guide right-click action for speed buttons."
+  },
+  "guideCategoryCurrentSpeed": {
+    "message": "Aktuální rychlost",
+    "description": "Button guide category for the live speed indicator."
+  },
+  "guideCurrentSpeedLeftClick": {
+    "message": "Obnoví rychlost na 1,00x.",
+    "description": "Button guide left-click action for the speed indicator."
+  },
+  "guideCurrentSpeedRightClick": {
+    "message": "Žádná sekundární akce.",
+    "description": "Button guide right-click action for the speed indicator."
+  },
+  "guideCategoryVolume": {
+    "message": "Hlasitost",
+    "description": "Button guide category for volume controls."
+  },
+  "guideVolumeLeftClick": {
+    "message": "Změní hlasitost o 10 %. Může přesáhnout 100 % až do 200 %.",
+    "description": "Button guide left-click action for volume buttons."
+  },
+  "guideVolumeRightClick": {
+    "message": "Změní hlasitost o 20 %.",
+    "description": "Button guide right-click action for volume buttons."
+  },
+  "guideCategoryCurrentVolume": {
+    "message": "Aktuální hlasitost",
+    "description": "Button guide category for the live volume indicator."
+  },
+  "guideCurrentVolumeLeftClick": {
+    "message": "Obnoví hlasitost na 100 %.",
+    "description": "Button guide left-click action for the volume indicator."
+  },
+  "guideCurrentVolumeRightClick": {
+    "message": "Žádná sekundární akce.",
+    "description": "Button guide right-click action for the volume indicator."
+  },
+  "guideCategoryTime": {
+    "message": "Čas",
+    "description": "Button guide category for seek controls."
+  },
+  "guideTimeLeftClick": {
+    "message": "Přeskočí zpět nebo vpřed o uvedenou hodnotu.",
+    "description": "Button guide left-click action for seek buttons."
+  },
+  "guideTimeRightClick": {
+    "message": "Rychle přeskočí vpřed rychlostí 4x až do bodu.",
+    "description": "Button guide right-click action for seek buttons."
+  },
+  "guideCategoryResolution": {
+    "message": "Rozlišení",
+    "description": "Button guide category for quality controls."
+  },
+  "guideResolutionLeftClick": {
+    "message": "Vybere Auto nebo nejbližší rozlišení.",
+    "description": "Button guide left-click action for quality buttons."
+  },
+  "guideResolutionRightClick": {
+    "message": "Změní cíl tlačítka rozlišení.",
+    "description": "Button guide right-click action for quality buttons."
+  },
+  "guideCategoryMusic": {
+    "message": "Hudební režim",
+    "description": "Button guide category for the music mode toggle."
+  },
+  "guideMusicLeftClick": {
+    "message": "Zapne nebo vypne hudební režim. Zčerní obrazovku a zvolí nejnižší rozlišení pro úsporu dat a zátěže systému.",
+    "description": "Button guide left-click action for the music mode button."
+  },
+  "guideMusicRightClick": {
+    "message": "Žádná sekundární akce.",
+    "description": "Button guide right-click action for the music mode button."
+  },
+  "guideCategoryCaptions": {
+    "message": "Titulky",
+    "description": "Button guide category for the captions toggle."
+  },
+  "guideCaptionsLeftClick": {
+    "message": "Zapne nebo vypne titulky, pokud jsou k dispozici.",
+    "description": "Button guide left-click action for the captions button."
+  },
+  "guideCaptionsRightClick": {
+    "message": "Žádná sekundární akce.",
+    "description": "Button guide right-click action for the captions button."
+  },
+  "themeClassicName": {
+    "message": "Klasický",
+    "description": "Display name for the Classic control bar theme."
+  },
+  "themeClassicDescription": {
+    "message": "Světle šedý panel s bílými tlačítky v původním stylu.",
+    "description": "Description for the Classic control bar theme."
+  },
+  "themeDarkName": {
+    "message": "Tmavý",
+    "description": "Display name for the Dark control bar theme."
+  },
+  "themeDarkDescription": {
+    "message": "Panel vhodný při slabém osvětlení pro sledování videí v noci.",
+    "description": "Description for the Dark control bar theme."
+  },
+  "themeYoutubeName": {
+    "message": "YouTube",
+    "description": "Display name for the YouTube control bar theme."
+  },
+  "themeYoutubeDescription": {
+    "message": "Červená, bílá a černá s povědomým akcentem platformy.",
+    "description": "Description for the YouTube control bar theme."
+  },
+  "themeOceanName": {
+    "message": "Oceán",
+    "description": "Display name for the Ocean control bar theme."
+  },
+  "themeOceanDescription": {
+    "message": "Jemné modré tóny s dobrou čitelností přes video.",
+    "description": "Description for the Ocean control bar theme."
+  },
+  "themeRoseName": {
+    "message": "Růžová",
+    "description": "Display name for the Rose control bar theme."
+  },
+  "themeRoseDescription": {
+    "message": "Teplý, kompaktní a jemně akcentovaný.",
+    "description": "Description for the Rose control bar theme."
+  },
+  "speedDecreaseLabel": {
+    "message": "-5% | -10%",
+    "description": "Visible label for the decrease-speed button on the YouTube control bar."
+  },
+  "speedDecreaseTitle": {
+    "message": "Kliknutí: snížit o 0,05x. Pravé kliknutí: snížit o 0,10x",
+    "description": "Tooltip for the decrease-speed button on the YouTube control bar."
+  },
+  "speedIncreaseLabel": {
+    "message": "+5% | +10%",
+    "description": "Visible label for the increase-speed button on the YouTube control bar."
+  },
+  "speedIncreaseTitle": {
+    "message": "Kliknutí: zvýšit o 0,05x. Pravé kliknutí: zvýšit o 0,10x",
+    "description": "Tooltip for the increase-speed button on the YouTube control bar."
+  },
+  "seekRewind15Label": {
+    "message": "←15s",
+    "description": "Visible label for the 15-second rewind button."
+  },
+  "seekRewind15Title": {
+    "message": "Přetočit o 15 sekund zpět",
+    "description": "Tooltip for the 15-second rewind button."
+  },
+  "seekRewind30Label": {
+    "message": "←30s",
+    "description": "Visible label for the 30-second rewind button."
+  },
+  "seekRewind30Title": {
+    "message": "Přetočit o 30 sekund zpět",
+    "description": "Tooltip for the 30-second rewind button."
+  },
+  "seekRewind60Label": {
+    "message": "←60s",
+    "description": "Visible label for the 60-second rewind button."
+  },
+  "seekRewind60Title": {
+    "message": "Přetočit o 60 sekund zpět",
+    "description": "Tooltip for the 60-second rewind button."
+  },
+  "seekForward15Label": {
+    "message": "15s→",
+    "description": "Visible label for the 15-second forward button."
+  },
+  "seekForward15Title": {
+    "message": "Přetočit o 15 sekund vpřed",
+    "description": "Tooltip for the 15-second forward button."
+  },
+  "seekForward30Label": {
+    "message": "30s→",
+    "description": "Visible label for the 30-second forward button."
+  },
+  "seekForward30Title": {
+    "message": "Přetočit o 30 sekund vpřed",
+    "description": "Tooltip for the 30-second forward button."
+  },
+  "seekForward60Label": {
+    "message": "60s→",
+    "description": "Visible label for the 60-second forward button."
+  },
+  "seekForward60Title": {
+    "message": "Přetočit o 60 sekund vpřed",
+    "description": "Tooltip for the 60-second forward button."
+  },
+  "rateResetAriaLabel": {
+    "message": "Obnovit rychlost přehrávání na 1,00x",
+    "description": "Accessible label for the live playback speed indicator button."
+  },
+  "rateResetTitle": {
+    "message": "Obnovit rychlost přehrávání na 1,00x",
+    "description": "Tooltip for the live playback speed indicator button."
+  },
+  "qualityAutoLabel": {
+    "message": "Auto",
+    "description": "Visible label for the automatic quality button."
+  },
+  "qualityAutoTitle": {
+    "message": "Vybrat kvalitu Auto YouTube",
+    "description": "Tooltip for the automatic quality button."
+  },
+  "qualityResolutionTitle": {
+    "message": "Vybrat $RESOLUTION$p nebo nejbližší dostupné rozlišení",
+    "placeholders": {
+      "resolution": {
+        "content": "$1",
+        "example": "1080"
+      }
+    },
+    "description": "Tooltip for a fixed-resolution quality button on the YouTube control bar."
+  },
+  "captionsButtonLabel": {
+    "message": "CC",
+    "description": "Visible label for the captions toggle button."
+  },
+  "musicModeEnableAriaLabel": {
+    "message": "Povolit hudební režim",
+    "description": "Accessible label when music mode is disabled."
+  },
+  "musicModeEnableTitle": {
+    "message": "Povolit hudební režim",
+    "description": "Tooltip when music mode is disabled."
+  },
+  "musicModeDisableAriaLabel": {
+    "message": "Zakázat hudební režim",
+    "description": "Accessible label when music mode is enabled."
+  },
+  "musicModeDisableTitle": {
+    "message": "Zakázat hudební režim",
+    "description": "Tooltip when music mode is enabled."
+  },
+  "captionsEnableAriaLabel": {
+    "message": "Povolit titulky",
+    "description": "Accessible label when captions are disabled."
+  },
+  "captionsDisableAriaLabel": {
+    "message": "Zakázat titulky",
+    "description": "Accessible label when captions are enabled."
+  },
+  "captionsEnableTitle": {
+    "message": "Povolit titulky (Z)",
+    "description": "Tooltip when captions are available but disabled."
+  },
+  "captionsDisableTitle": {
+    "message": "Zakázat titulky (Z)",
+    "description": "Tooltip when captions are enabled."
+  },
+  "captionsUnavailableTitle": {
+    "message": "Titulky nejsou pro toto video k dispozici",
+    "description": "Tooltip when captions cannot be toggled for the current video."
+  },
+  "pinEnableAriaLabel": {
+    "message": "Připnout ovládací prvky přehrávače",
+    "description": "Accessible label when player controls are not pinned."
+  },
+  "pinEnableTitle": {
+    "message": "Připnout ovládací prvky přehrávače",
+    "description": "Tooltip when player controls are not pinned."
+  },
+  "pinDisableAriaLabel": {
+    "message": "Odepnout ovládací prvky přehrávače",
+    "description": "Accessible label when player controls are pinned."
+  },
+  "pinDisableTitle": {
+    "message": "Odepnout ovládací prvky přehrávače",
+    "description": "Tooltip when player controls are pinned."
+  },
+  "controlBarSectionsTitle": {
+    "message": "Viditelné sekce",
+    "description": "Section heading for choosing which control bar groups are visible on YouTube."
+  },
+  "controlBarSectionsSubtitle": {
+    "message": "Vyberte, které skupiny se zobrazí na liště přehrávače.",
+    "description": "Supporting text for the visible control bar sections picker."
+  },
+  "controlBarSectionsAriaLabel": {
+    "message": "Viditelné sekce ovládací lišty",
+    "description": "Accessible label for the visible control bar sections switch list."
+  },
+  "controlBarSectionTime": {
+    "message": "Ovládání času",
+    "description": "Label for the seek/time control bar section visibility switch."
+  },
+  "controlBarSectionSpeed": {
+    "message": "Ovládání rychlosti",
+    "description": "Label for the playback speed control bar section visibility switch."
+  },
+  "controlBarSectionQuality": {
+    "message": "Ovládání kvality",
+    "description": "Label for the video quality control bar section visibility switch."
+  },
+  "controlBarSectionMusic": {
+    "message": "Hudební režim",
+    "description": "Label for the music mode control bar section visibility switch."
+  },
+  "controlBarSectionCaptions": {
+    "message": "Titulky",
+    "description": "Label for the captions control bar section visibility switch."
+  },
+  "controlBarSectionPin": {
+    "message": "Připnout ovládání",
+    "description": "Label for the pin controls section visibility switch."
+  },
+  "resetSectionsButton": {
+    "message": "Obnovit sekce",
+    "description": "Button that restores the default visible control bar sections."
+  },
+  "controlBarSectionVolume": {
+    "message": "Ovládání hlasitosti",
+    "description": "Label for the volume control bar section visibility switch."
+  },
+  "volumeDecreaseLabel": {
+    "message": "🔉 -10%",
+    "description": "Visible label for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeDecreaseTitle": {
+    "message": "Klik: snížit o 10 %. Pravý klik: o 20 %",
+    "description": "Tooltip for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseLabel": {
+    "message": "🔊 +10%",
+    "description": "Visible label for the increase-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseTitle": {
+    "message": "Klik: zvýšit o 10 %. Pravý klik: o 20 %",
+    "description": "Tooltip for the increase-volume button on the YouTube control bar."
+  }
+}

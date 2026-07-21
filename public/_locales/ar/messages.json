@@ -1,0 +1,412 @@
+{
+  "extName": {
+    "message": "YouTube™ Playback Speed Premium11: فيديو أسرع وتحكم مخصص بالسرعة",
+    "description": "Extension name shown in Chrome and the Chrome Web Store."
+  },
+  "extDescription": {
+    "message": "يضيف عناصر تحكم سريعة لسرعة التشغيل والتقديم والجودة والترجمة والنمط إلى مشغل YouTube.",
+    "description": "Extension description shown in Chrome and the Chrome Web Store."
+  },
+  "extActionTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Tooltip shown when hovering the extension toolbar icon."
+  },
+  "popupDocumentTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Document title for the extension popup page."
+  },
+  "popupHeaderTitle": {
+    "message": "نمط شريط التحكم",
+    "description": "Main heading in the extension popup."
+  },
+  "popupHeaderSubtitle": {
+    "message": "اختر السمة لعناصر تحكم YouTube الخاصة بك.",
+    "description": "Supporting text below the popup main heading."
+  },
+  "popupAppearanceToggleToLightAriaLabel": {
+    "message": "التبديل إلى الوضع الفاتح في النافذة المنبثقة",
+    "description": "Accessible label for switching the popup to light mode."
+  },
+  "popupAppearanceToggleToDarkAriaLabel": {
+    "message": "التبديل إلى الوضع الداكن في النافذة المنبثقة",
+    "description": "Accessible label for switching the popup to dark mode."
+  },
+  "previewAriaLabel": {
+    "message": "معاينة شريط التحكم",
+    "description": "Accessible label for the theme preview bar in the popup."
+  },
+  "themesTitle": {
+    "message": "السمات",
+    "description": "Section heading for the theme picker in the popup."
+  },
+  "themesSubtitle": {
+    "message": "اختر ألوان شريط المشغل.",
+    "description": "Supporting text for the theme picker section."
+  },
+  "availableThemesAriaLabel": {
+    "message": "السمات المتاحة",
+    "description": "Accessible label for the theme list in the popup."
+  },
+  "buttonGuideTitle": {
+    "message": "دليل الأزرار",
+    "description": "Section heading for the control button guide in the popup."
+  },
+  "buttonGuideSubtitle": {
+    "message": "يمكن للنقر بزر الماوس الأيسر والأيمن تنفيذ إجراءات مختلفة.",
+    "description": "Supporting text for the button guide section."
+  },
+  "leftClickLabel": {
+    "message": "نقر بزر الماوس الأيسر",
+    "description": "Label for left-click actions in the button guide."
+  },
+  "rightClickLabel": {
+    "message": "نقر بزر الماوس الأيمن",
+    "description": "Label for right-click actions in the button guide."
+  },
+  "resetButton": {
+    "message": "إعادة التعيين",
+    "description": "Button that restores the default control bar theme."
+  },
+  "guideCategorySpeed": {
+    "message": "السرعة",
+    "description": "Button guide category for playback speed controls."
+  },
+  "guideSpeedLeftClick": {
+    "message": "يغيّر السرعة بمقدار 0.05x.",
+    "description": "Button guide left-click action for speed buttons."
+  },
+  "guideSpeedRightClick": {
+    "message": "يغيّر السرعة بمقدار 0.10x.",
+    "description": "Button guide right-click action for speed buttons."
+  },
+  "guideCategoryCurrentSpeed": {
+    "message": "السرعة الحالية",
+    "description": "Button guide category for the live speed indicator."
+  },
+  "guideCurrentSpeedLeftClick": {
+    "message": "يعيد ضبط السرعة إلى 1.00x.",
+    "description": "Button guide left-click action for the speed indicator."
+  },
+  "guideCurrentSpeedRightClick": {
+    "message": "لا يوجد إجراء ثانوي.",
+    "description": "Button guide right-click action for the speed indicator."
+  },
+  "guideCategoryVolume": {
+    "message": "مستوى الصوت",
+    "description": "Button guide category for volume controls."
+  },
+  "guideVolumeLeftClick": {
+    "message": "يغيّر مستوى الصوت بنسبة 10%. يمكن رفعه فوق 100% حتى 200%.",
+    "description": "Button guide left-click action for volume buttons."
+  },
+  "guideVolumeRightClick": {
+    "message": "يغيّر مستوى الصوت بنسبة 20%.",
+    "description": "Button guide right-click action for volume buttons."
+  },
+  "guideCategoryCurrentVolume": {
+    "message": "مستوى الصوت الحالي",
+    "description": "Button guide category for the live volume indicator."
+  },
+  "guideCurrentVolumeLeftClick": {
+    "message": "يعيد مستوى الصوت إلى 100%.",
+    "description": "Button guide left-click action for the volume indicator."
+  },
+  "guideCurrentVolumeRightClick": {
+    "message": "لا يوجد إجراء ثانوي.",
+    "description": "Button guide right-click action for the volume indicator."
+  },
+  "guideCategoryTime": {
+    "message": "الوقت",
+    "description": "Button guide category for seek controls."
+  },
+  "guideTimeLeftClick": {
+    "message": "يتخطى للخلف أو للأمام بالمقدار المحدد.",
+    "description": "Button guide left-click action for seek buttons."
+  },
+  "guideTimeRightClick": {
+    "message": "يتقدم بسرعة 4x حتى الوصول إلى النقطة.",
+    "description": "Button guide right-click action for seek buttons."
+  },
+  "guideCategoryResolution": {
+    "message": "الدقة",
+    "description": "Button guide category for quality controls."
+  },
+  "guideResolutionLeftClick": {
+    "message": "يختار تلقائي أو أقرب دقة.",
+    "description": "Button guide left-click action for quality buttons."
+  },
+  "guideResolutionRightClick": {
+    "message": "يغيّر هدف زر الدقة.",
+    "description": "Button guide right-click action for quality buttons."
+  },
+  "guideCategoryMusic": {
+    "message": "وضع الموسيقى",
+    "description": "Button guide category for the music mode toggle."
+  },
+  "guideMusicLeftClick": {
+    "message": "يفعّل أو يعطّل وضع الموسيقى. يجعل الشاشة سوداء ويختار أدنى دقة لتوفير البيانات وتخفيف الحمل على الجهاز.",
+    "description": "Button guide left-click action for the music mode button."
+  },
+  "guideMusicRightClick": {
+    "message": "لا يوجد إجراء ثانوي.",
+    "description": "Button guide right-click action for the music mode button."
+  },
+  "guideCategoryCaptions": {
+    "message": "الترجمة",
+    "description": "Button guide category for the captions toggle."
+  },
+  "guideCaptionsLeftClick": {
+    "message": "يفعّل أو يعطّل الترجمة عند توفرها.",
+    "description": "Button guide left-click action for the captions button."
+  },
+  "guideCaptionsRightClick": {
+    "message": "لا يوجد إجراء ثانوي.",
+    "description": "Button guide right-click action for the captions button."
+  },
+  "themeClassicName": {
+    "message": "كلاسيكي",
+    "description": "Display name for the Classic control bar theme."
+  },
+  "themeClassicDescription": {
+    "message": "شريط رمادي فاتح بأزرار بيضاء، يطابق النمط الأصلي.",
+    "description": "Description for the Classic control bar theme."
+  },
+  "themeDarkName": {
+    "message": "داكن",
+    "description": "Display name for the Dark control bar theme."
+  },
+  "themeDarkDescription": {
+    "message": "شريط مناسب للإضاءة المنخفضة لمشاهدة الفيديوهات ليلاً.",
+    "description": "Description for the Dark control bar theme."
+  },
+  "themeYoutubeName": {
+    "message": "YouTube",
+    "description": "Display name for the YouTube control bar theme."
+  },
+  "themeYoutubeDescription": {
+    "message": "أحمر وأبيض وأسود بلمسة مألوفة من المنصة.",
+    "description": "Description for the YouTube control bar theme."
+  },
+  "themeOceanName": {
+    "message": "محيط",
+    "description": "Display name for the Ocean control bar theme."
+  },
+  "themeOceanDescription": {
+    "message": "درجات زرقاء ناعمة مع وضوح جيد فوق الفيديو.",
+    "description": "Description for the Ocean control bar theme."
+  },
+  "themeRoseName": {
+    "message": "وردي",
+    "description": "Display name for the Rose control bar theme."
+  },
+  "themeRoseDescription": {
+    "message": "دافئ ومضغوط بلمسات ناعمة.",
+    "description": "Description for the Rose control bar theme."
+  },
+  "speedDecreaseLabel": {
+    "message": "-5% | -10%",
+    "description": "Visible label for the decrease-speed button on the YouTube control bar."
+  },
+  "speedDecreaseTitle": {
+    "message": "نقرة: إنقاص 0.05x. نقرة يمين: إنقاص 0.10x",
+    "description": "Tooltip for the decrease-speed button on the YouTube control bar."
+  },
+  "speedIncreaseLabel": {
+    "message": "+5% | +10%",
+    "description": "Visible label for the increase-speed button on the YouTube control bar."
+  },
+  "speedIncreaseTitle": {
+    "message": "نقرة: زيادة 0.05x. نقرة يمين: زيادة 0.10x",
+    "description": "Tooltip for the increase-speed button on the YouTube control bar."
+  },
+  "seekRewind15Label": {
+    "message": "←15s",
+    "description": "Visible label for the 15-second rewind button."
+  },
+  "seekRewind15Title": {
+    "message": "إرجاع 15 ثانية",
+    "description": "Tooltip for the 15-second rewind button."
+  },
+  "seekRewind30Label": {
+    "message": "←30s",
+    "description": "Visible label for the 30-second rewind button."
+  },
+  "seekRewind30Title": {
+    "message": "إرجاع 30 ثانية",
+    "description": "Tooltip for the 30-second rewind button."
+  },
+  "seekRewind60Label": {
+    "message": "←60s",
+    "description": "Visible label for the 60-second rewind button."
+  },
+  "seekRewind60Title": {
+    "message": "إرجاع 60 ثانية",
+    "description": "Tooltip for the 60-second rewind button."
+  },
+  "seekForward15Label": {
+    "message": "15s→",
+    "description": "Visible label for the 15-second forward button."
+  },
+  "seekForward15Title": {
+    "message": "تقديم 15 ثانية",
+    "description": "Tooltip for the 15-second forward button."
+  },
+  "seekForward30Label": {
+    "message": "30s→",
+    "description": "Visible label for the 30-second forward button."
+  },
+  "seekForward30Title": {
+    "message": "تقديم 30 ثانية",
+    "description": "Tooltip for the 30-second forward button."
+  },
+  "seekForward60Label": {
+    "message": "60s→",
+    "description": "Visible label for the 60-second forward button."
+  },
+  "seekForward60Title": {
+    "message": "تقديم 60 ثانية",
+    "description": "Tooltip for the 60-second forward button."
+  },
+  "rateResetAriaLabel": {
+    "message": "إعادة ضبط سرعة التشغيل إلى 1.00x",
+    "description": "Accessible label for the live playback speed indicator button."
+  },
+  "rateResetTitle": {
+    "message": "إعادة ضبط سرعة التشغيل إلى 1.00x",
+    "description": "Tooltip for the live playback speed indicator button."
+  },
+  "qualityAutoLabel": {
+    "message": "Auto",
+    "description": "Visible label for the automatic quality button."
+  },
+  "qualityAutoTitle": {
+    "message": "اختيار جودة YouTube التلقائية",
+    "description": "Tooltip for the automatic quality button."
+  },
+  "qualityResolutionTitle": {
+    "message": "اختيار $RESOLUTION$p أو أقرب دقة متاحة",
+    "placeholders": {
+      "resolution": {
+        "content": "$1",
+        "example": "1080"
+      }
+    },
+    "description": "Tooltip for a fixed-resolution quality button on the YouTube control bar."
+  },
+  "captionsButtonLabel": {
+    "message": "CC",
+    "description": "Visible label for the captions toggle button."
+  },
+  "musicModeEnableAriaLabel": {
+    "message": "تفعيل وضع الموسيقى",
+    "description": "Accessible label when music mode is disabled."
+  },
+  "musicModeEnableTitle": {
+    "message": "تفعيل وضع الموسيقى",
+    "description": "Tooltip when music mode is disabled."
+  },
+  "musicModeDisableAriaLabel": {
+    "message": "إلغاء وضع الموسيقى",
+    "description": "Accessible label when music mode is enabled."
+  },
+  "musicModeDisableTitle": {
+    "message": "إلغاء وضع الموسيقى",
+    "description": "Tooltip when music mode is enabled."
+  },
+  "captionsEnableAriaLabel": {
+    "message": "تفعيل الترجمة",
+    "description": "Accessible label when captions are disabled."
+  },
+  "captionsDisableAriaLabel": {
+    "message": "إلغاء الترجمة",
+    "description": "Accessible label when captions are enabled."
+  },
+  "captionsEnableTitle": {
+    "message": "تفعيل الترجمة (Z)",
+    "description": "Tooltip when captions are available but disabled."
+  },
+  "captionsDisableTitle": {
+    "message": "إلغاء الترجمة (Z)",
+    "description": "Tooltip when captions are enabled."
+  },
+  "captionsUnavailableTitle": {
+    "message": "الترجمة غير متاحة لهذا الفيديو",
+    "description": "Tooltip when captions cannot be toggled for the current video."
+  },
+  "pinEnableAriaLabel": {
+    "message": "تثبيت عناصر تحكم المشغل",
+    "description": "Accessible label when player controls are not pinned."
+  },
+  "pinEnableTitle": {
+    "message": "تثبيت عناصر تحكم المشغل",
+    "description": "Tooltip when player controls are not pinned."
+  },
+  "pinDisableAriaLabel": {
+    "message": "إلغاء تثبيت عناصر تحكم المشغل",
+    "description": "Accessible label when player controls are pinned."
+  },
+  "pinDisableTitle": {
+    "message": "إلغاء تثبيت عناصر تحكم المشغل",
+    "description": "Tooltip when player controls are pinned."
+  },
+  "controlBarSectionsTitle": {
+    "message": "الأقسام الظاهرة",
+    "description": "Section heading for choosing which control bar groups are visible on YouTube."
+  },
+  "controlBarSectionsSubtitle": {
+    "message": "اختر المجموعات التي تظهر في شريط المشغّل.",
+    "description": "Supporting text for the visible control bar sections picker."
+  },
+  "controlBarSectionsAriaLabel": {
+    "message": "أقسام شريط التحكم الظاهرة",
+    "description": "Accessible label for the visible control bar sections switch list."
+  },
+  "controlBarSectionTime": {
+    "message": "عناصر التحكم بالوقت",
+    "description": "Label for the seek/time control bar section visibility switch."
+  },
+  "controlBarSectionSpeed": {
+    "message": "عناصر التحكم بالسرعة",
+    "description": "Label for the playback speed control bar section visibility switch."
+  },
+  "controlBarSectionQuality": {
+    "message": "عناصر التحكم بالجودة",
+    "description": "Label for the video quality control bar section visibility switch."
+  },
+  "controlBarSectionMusic": {
+    "message": "وضع الموسيقى",
+    "description": "Label for the music mode control bar section visibility switch."
+  },
+  "controlBarSectionCaptions": {
+    "message": "الترجمة",
+    "description": "Label for the captions control bar section visibility switch."
+  },
+  "controlBarSectionPin": {
+    "message": "تثبيت عناصر التحكم",
+    "description": "Label for the pin controls section visibility switch."
+  },
+  "resetSectionsButton": {
+    "message": "إعادة تعيين الأقسام",
+    "description": "Button that restores the default visible control bar sections."
+  },
+  "controlBarSectionVolume": {
+    "message": "عناصر التحكم بالصوت",
+    "description": "Label for the volume control bar section visibility switch."
+  },
+  "volumeDecreaseLabel": {
+    "message": "🔉 -10%",
+    "description": "Visible label for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeDecreaseTitle": {
+    "message": "نقرة: خفض الصوت 10%. نقرة يمين: خفض 20%",
+    "description": "Tooltip for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseLabel": {
+    "message": "🔊 +10%",
+    "description": "Visible label for the increase-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseTitle": {
+    "message": "نقرة: رفع الصوت 10%. نقرة يمين: رفع 20%",
+    "description": "Tooltip for the increase-volume button on the YouTube control bar."
+  }
+}

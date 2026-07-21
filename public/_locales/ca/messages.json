@@ -1,0 +1,412 @@
+{
+  "extName": {
+    "message": "YouTube™ Playback Speed Premium11: Vídeos Més Ràpids, Velocitat A Mida",
+    "description": "Extension name shown in Chrome and the Chrome Web Store."
+  },
+  "extDescription": {
+    "message": "Afegeix controls ràpids de velocitat de reproducció, salt, qualitat, subtítols i estil al reproductor de YouTube.",
+    "description": "Extension description shown in Chrome and the Chrome Web Store."
+  },
+  "extActionTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Tooltip shown when hovering the extension toolbar icon."
+  },
+  "popupDocumentTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Document title for the extension popup page."
+  },
+  "popupHeaderTitle": {
+    "message": "Estil de la barra de control",
+    "description": "Main heading in the extension popup."
+  },
+  "popupHeaderSubtitle": {
+    "message": "Trieu el tema per als controls de YouTube.",
+    "description": "Supporting text below the popup main heading."
+  },
+  "popupAppearanceToggleToLightAriaLabel": {
+    "message": "Canvia el popup al mode clar",
+    "description": "Accessible label for switching the popup to light mode."
+  },
+  "popupAppearanceToggleToDarkAriaLabel": {
+    "message": "Canvia el popup al mode fosc",
+    "description": "Accessible label for switching the popup to dark mode."
+  },
+  "previewAriaLabel": {
+    "message": "Previsualització de la barra de control",
+    "description": "Accessible label for the theme preview bar in the popup."
+  },
+  "themesTitle": {
+    "message": "Temes",
+    "description": "Section heading for the theme picker in the popup."
+  },
+  "themesSubtitle": {
+    "message": "Trieu els colors de la barra del reproductor.",
+    "description": "Supporting text for the theme picker section."
+  },
+  "availableThemesAriaLabel": {
+    "message": "Temes disponibles",
+    "description": "Accessible label for the theme list in the popup."
+  },
+  "buttonGuideTitle": {
+    "message": "Guia de botons",
+    "description": "Section heading for the control button guide in the popup."
+  },
+  "buttonGuideSubtitle": {
+    "message": "El clic esquerre i el dret poden fer accions diferents.",
+    "description": "Supporting text for the button guide section."
+  },
+  "leftClickLabel": {
+    "message": "Clic esquerre",
+    "description": "Label for left-click actions in the button guide."
+  },
+  "rightClickLabel": {
+    "message": "Clic dret",
+    "description": "Label for right-click actions in the button guide."
+  },
+  "resetButton": {
+    "message": "Restableix",
+    "description": "Button that restores the default control bar theme."
+  },
+  "guideCategorySpeed": {
+    "message": "Velocitat",
+    "description": "Button guide category for playback speed controls."
+  },
+  "guideSpeedLeftClick": {
+    "message": "Canvia la velocitat en 0,05x.",
+    "description": "Button guide left-click action for speed buttons."
+  },
+  "guideSpeedRightClick": {
+    "message": "Canvia la velocitat en 0,10x.",
+    "description": "Button guide right-click action for speed buttons."
+  },
+  "guideCategoryCurrentSpeed": {
+    "message": "Velocitat actual",
+    "description": "Button guide category for the live speed indicator."
+  },
+  "guideCurrentSpeedLeftClick": {
+    "message": "Restableix la velocitat a 1,00x.",
+    "description": "Button guide left-click action for the speed indicator."
+  },
+  "guideCurrentSpeedRightClick": {
+    "message": "Cap acció secundària.",
+    "description": "Button guide right-click action for the speed indicator."
+  },
+  "guideCategoryVolume": {
+    "message": "Volum",
+    "description": "Button guide category for volume controls."
+  },
+  "guideVolumeLeftClick": {
+    "message": "Puja o baixa el volum un 10%. Pot superar el 100% i arribar fins al 200%.",
+    "description": "Button guide left-click action for volume buttons."
+  },
+  "guideVolumeRightClick": {
+    "message": "Puja o baixa el volum un 20%.",
+    "description": "Button guide right-click action for volume buttons."
+  },
+  "guideCategoryCurrentVolume": {
+    "message": "Volum actual",
+    "description": "Button guide category for the live volume indicator."
+  },
+  "guideCurrentVolumeLeftClick": {
+    "message": "Restableix el volum al 100%.",
+    "description": "Button guide left-click action for the volume indicator."
+  },
+  "guideCurrentVolumeRightClick": {
+    "message": "Sense acció secundària.",
+    "description": "Button guide right-click action for the volume indicator."
+  },
+  "guideCategoryTime": {
+    "message": "Temps",
+    "description": "Button guide category for seek controls."
+  },
+  "guideTimeLeftClick": {
+    "message": "Salta enrere o endavant la quantitat indicada.",
+    "description": "Button guide left-click action for seek buttons."
+  },
+  "guideTimeRightClick": {
+    "message": "Avança ràpidament a 4x fins al punt.",
+    "description": "Button guide right-click action for seek buttons."
+  },
+  "guideCategoryResolution": {
+    "message": "Resolució",
+    "description": "Button guide category for quality controls."
+  },
+  "guideResolutionLeftClick": {
+    "message": "Tria Auto o la resolució més propera.",
+    "description": "Button guide left-click action for quality buttons."
+  },
+  "guideResolutionRightClick": {
+    "message": "Canvia l'objectiu del botó de resolució.",
+    "description": "Button guide right-click action for quality buttons."
+  },
+  "guideCategoryMusic": {
+    "message": "Mode música",
+    "description": "Button guide category for the music mode toggle."
+  },
+  "guideMusicLeftClick": {
+    "message": "Activa o desactiva el mode música. Posa la pantalla en negre i baixa la resolució al mínim per estalviar dades i alleugerir la càrrega del PC.",
+    "description": "Button guide left-click action for the music mode button."
+  },
+  "guideMusicRightClick": {
+    "message": "Sense acció secundària.",
+    "description": "Button guide right-click action for the music mode button."
+  },
+  "guideCategoryCaptions": {
+    "message": "Subtítols",
+    "description": "Button guide category for the captions toggle."
+  },
+  "guideCaptionsLeftClick": {
+    "message": "Activa o desactiva els subtítols quan estan disponibles.",
+    "description": "Button guide left-click action for the captions button."
+  },
+  "guideCaptionsRightClick": {
+    "message": "Sense acció secundària.",
+    "description": "Button guide right-click action for the captions button."
+  },
+  "themeClassicName": {
+    "message": "Clàssic",
+    "description": "Display name for the Classic control bar theme."
+  },
+  "themeClassicDescription": {
+    "message": "Barra grisa clara amb botons blancs, en l'estil original.",
+    "description": "Description for the Classic control bar theme."
+  },
+  "themeDarkName": {
+    "message": "Fosc",
+    "description": "Display name for the Dark control bar theme."
+  },
+  "themeDarkDescription": {
+    "message": "Una barra adequada per a poca llum per veure vídeos a la nit.",
+    "description": "Description for the Dark control bar theme."
+  },
+  "themeYoutubeName": {
+    "message": "YouTube",
+    "description": "Display name for the YouTube control bar theme."
+  },
+  "themeYoutubeDescription": {
+    "message": "Vermell, blanc i negre amb l'accent familiar de la plataforma.",
+    "description": "Description for the YouTube control bar theme."
+  },
+  "themeOceanName": {
+    "message": "Oceà",
+    "description": "Display name for the Ocean control bar theme."
+  },
+  "themeOceanDescription": {
+    "message": "Blaus suaus amb bona llegibilitat sobre el vídeo.",
+    "description": "Description for the Ocean control bar theme."
+  },
+  "themeRoseName": {
+    "message": "Rosa",
+    "description": "Display name for the Rose control bar theme."
+  },
+  "themeRoseDescription": {
+    "message": "Càlid, compacte i amb accents suaus.",
+    "description": "Description for the Rose control bar theme."
+  },
+  "speedDecreaseLabel": {
+    "message": "-5% | -10%",
+    "description": "Visible label for the decrease-speed button on the YouTube control bar."
+  },
+  "speedDecreaseTitle": {
+    "message": "Clic: disminueix 0,05x. Clic dret: disminueix 0,10x",
+    "description": "Tooltip for the decrease-speed button on the YouTube control bar."
+  },
+  "speedIncreaseLabel": {
+    "message": "+5% | +10%",
+    "description": "Visible label for the increase-speed button on the YouTube control bar."
+  },
+  "speedIncreaseTitle": {
+    "message": "Clic: augmenta 0,05x. Clic dret: augmenta 0,10x",
+    "description": "Tooltip for the increase-speed button on the YouTube control bar."
+  },
+  "seekRewind15Label": {
+    "message": "←15s",
+    "description": "Visible label for the 15-second rewind button."
+  },
+  "seekRewind15Title": {
+    "message": "Rebobina 15 segons",
+    "description": "Tooltip for the 15-second rewind button."
+  },
+  "seekRewind30Label": {
+    "message": "←30s",
+    "description": "Visible label for the 30-second rewind button."
+  },
+  "seekRewind30Title": {
+    "message": "Rebobina 30 segons",
+    "description": "Tooltip for the 30-second rewind button."
+  },
+  "seekRewind60Label": {
+    "message": "←60s",
+    "description": "Visible label for the 60-second rewind button."
+  },
+  "seekRewind60Title": {
+    "message": "Rebobina 60 segons",
+    "description": "Tooltip for the 60-second rewind button."
+  },
+  "seekForward15Label": {
+    "message": "15s→",
+    "description": "Visible label for the 15-second forward button."
+  },
+  "seekForward15Title": {
+    "message": "Avança 15 segons",
+    "description": "Tooltip for the 15-second forward button."
+  },
+  "seekForward30Label": {
+    "message": "30s→",
+    "description": "Visible label for the 30-second forward button."
+  },
+  "seekForward30Title": {
+    "message": "Avança 30 segons",
+    "description": "Tooltip for the 30-second forward button."
+  },
+  "seekForward60Label": {
+    "message": "60s→",
+    "description": "Visible label for the 60-second forward button."
+  },
+  "seekForward60Title": {
+    "message": "Avança 60 segons",
+    "description": "Tooltip for the 60-second forward button."
+  },
+  "rateResetAriaLabel": {
+    "message": "Restableix la velocitat de reproducció a 1,00x",
+    "description": "Accessible label for the live playback speed indicator button."
+  },
+  "rateResetTitle": {
+    "message": "Restableix la velocitat de reproducció a 1,00x",
+    "description": "Tooltip for the live playback speed indicator button."
+  },
+  "qualityAutoLabel": {
+    "message": "Auto",
+    "description": "Visible label for the automatic quality button."
+  },
+  "qualityAutoTitle": {
+    "message": "Selecciona la qualitat Auto de YouTube",
+    "description": "Tooltip for the automatic quality button."
+  },
+  "qualityResolutionTitle": {
+    "message": "Selecciona $RESOLUTION$p o la resolució disponible més propera",
+    "placeholders": {
+      "resolution": {
+        "content": "$1",
+        "example": "1080"
+      }
+    },
+    "description": "Tooltip for a fixed-resolution quality button on the YouTube control bar."
+  },
+  "captionsButtonLabel": {
+    "message": "CC",
+    "description": "Visible label for the captions toggle button."
+  },
+  "musicModeEnableAriaLabel": {
+    "message": "Activa el mode música",
+    "description": "Accessible label when music mode is disabled."
+  },
+  "musicModeEnableTitle": {
+    "message": "Activa el mode música",
+    "description": "Tooltip when music mode is disabled."
+  },
+  "musicModeDisableAriaLabel": {
+    "message": "Desactiva el mode música",
+    "description": "Accessible label when music mode is enabled."
+  },
+  "musicModeDisableTitle": {
+    "message": "Desactiva el mode música",
+    "description": "Tooltip when music mode is enabled."
+  },
+  "captionsEnableAriaLabel": {
+    "message": "Activa els subtítols",
+    "description": "Accessible label when captions are disabled."
+  },
+  "captionsDisableAriaLabel": {
+    "message": "Desactiva els subtítols",
+    "description": "Accessible label when captions are enabled."
+  },
+  "captionsEnableTitle": {
+    "message": "Activa els subtítols (Z)",
+    "description": "Tooltip when captions are available but disabled."
+  },
+  "captionsDisableTitle": {
+    "message": "Desactiva els subtítols (Z)",
+    "description": "Tooltip when captions are enabled."
+  },
+  "captionsUnavailableTitle": {
+    "message": "Els subtítols no estan disponibles per a aquest vídeo",
+    "description": "Tooltip when captions cannot be toggled for the current video."
+  },
+  "pinEnableAriaLabel": {
+    "message": "Fixa els controls del reproductor",
+    "description": "Accessible label when player controls are not pinned."
+  },
+  "pinEnableTitle": {
+    "message": "Fixa els controls del reproductor",
+    "description": "Tooltip when player controls are not pinned."
+  },
+  "pinDisableAriaLabel": {
+    "message": "Desfixa els controls del reproductor",
+    "description": "Accessible label when player controls are pinned."
+  },
+  "pinDisableTitle": {
+    "message": "Desfixa els controls del reproductor",
+    "description": "Tooltip when player controls are pinned."
+  },
+  "controlBarSectionsTitle": {
+    "message": "Seccions visibles",
+    "description": "Section heading for choosing which control bar groups are visible on YouTube."
+  },
+  "controlBarSectionsSubtitle": {
+    "message": "Tria quins grups apareixen a la barra del reproductor.",
+    "description": "Supporting text for the visible control bar sections picker."
+  },
+  "controlBarSectionsAriaLabel": {
+    "message": "Seccions visibles de la barra de control",
+    "description": "Accessible label for the visible control bar sections switch list."
+  },
+  "controlBarSectionTime": {
+    "message": "Controls de temps",
+    "description": "Label for the seek/time control bar section visibility switch."
+  },
+  "controlBarSectionSpeed": {
+    "message": "Controls de velocitat",
+    "description": "Label for the playback speed control bar section visibility switch."
+  },
+  "controlBarSectionQuality": {
+    "message": "Controls de qualitat",
+    "description": "Label for the video quality control bar section visibility switch."
+  },
+  "controlBarSectionMusic": {
+    "message": "Mode música",
+    "description": "Label for the music mode control bar section visibility switch."
+  },
+  "controlBarSectionCaptions": {
+    "message": "Subtítols",
+    "description": "Label for the captions control bar section visibility switch."
+  },
+  "controlBarSectionPin": {
+    "message": "Fixar controls",
+    "description": "Label for the pin controls section visibility switch."
+  },
+  "resetSectionsButton": {
+    "message": "Restableix seccions",
+    "description": "Button that restores the default visible control bar sections."
+  },
+  "controlBarSectionVolume": {
+    "message": "Controls de volum",
+    "description": "Label for the volume control bar section visibility switch."
+  },
+  "volumeDecreaseLabel": {
+    "message": "🔉 -10%",
+    "description": "Visible label for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeDecreaseTitle": {
+    "message": "Clic: baixa el volum un 10%. Clic dret: un 20%",
+    "description": "Tooltip for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseLabel": {
+    "message": "🔊 +10%",
+    "description": "Visible label for the increase-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseTitle": {
+    "message": "Clic: puja el volum un 10%. Clic dret: un 20%",
+    "description": "Tooltip for the increase-volume button on the YouTube control bar."
+  }
+}

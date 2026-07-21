@@ -1,0 +1,19 @@
+{
+  "identicalMessageKeys": [
+    "captionsButtonLabel",
+    "extActionTitle",
+    "popupDocumentTitle",
+    "qualityAutoLabel",
+    "seekForward15Label",
+    "seekForward30Label",
+    "seekForward60Label",
+    "seekRewind15Label",
+    "seekRewind30Label",
+    "seekRewind60Label",
+    "speedDecreaseLabel",
+    "speedIncreaseLabel",
+    "themeYoutubeName",
+    "volumeDecreaseLabel",
+    "volumeIncreaseLabel"
+  ]
+}

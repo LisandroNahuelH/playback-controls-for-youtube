@@ -1,0 +1,412 @@
+{
+  "extName": {
+    "message": "YouTube™ Playback Speed Premium11: দ্রুত ভিডিও, কাস্টম স্পিড",
+    "description": "Extension name shown in Chrome and the Chrome Web Store."
+  },
+  "extDescription": {
+    "message": "YouTube প্লেয়ারে দ্রুত প্লেব্যাক গতি, অগ্রগমন, গুণমান, ক্যাপশন ও শৈলীর নিয়ন্ত্রণ যোগ করে।",
+    "description": "Extension description shown in Chrome and the Chrome Web Store."
+  },
+  "extActionTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Tooltip shown when hovering the extension toolbar icon."
+  },
+  "popupDocumentTitle": {
+    "message": "Playback Controls for Youtube™",
+    "description": "Document title for the extension popup page."
+  },
+  "popupHeaderTitle": {
+    "message": "নিয়ন্ত্রণ বারের শৈলী",
+    "description": "Main heading in the extension popup."
+  },
+  "popupHeaderSubtitle": {
+    "message": "আপনার YouTube নিয়ন্ত্রণের জন্য থিম বেছে নিন।",
+    "description": "Supporting text below the popup main heading."
+  },
+  "popupAppearanceToggleToLightAriaLabel": {
+    "message": "পপআপ লাইট মোডে পরিবর্তন করুন",
+    "description": "Accessible label for switching the popup to light mode."
+  },
+  "popupAppearanceToggleToDarkAriaLabel": {
+    "message": "পপআপ ডার্ক মোডে পরিবর্তন করুন",
+    "description": "Accessible label for switching the popup to dark mode."
+  },
+  "previewAriaLabel": {
+    "message": "নিয়ন্ত্রণ বারের পূর্বরূপ",
+    "description": "Accessible label for the theme preview bar in the popup."
+  },
+  "themesTitle": {
+    "message": "থিম",
+    "description": "Section heading for the theme picker in the popup."
+  },
+  "themesSubtitle": {
+    "message": "প্লেয়ার বারের রঙ বেছে নিন।",
+    "description": "Supporting text for the theme picker section."
+  },
+  "availableThemesAriaLabel": {
+    "message": "উপলব্ধ থিম",
+    "description": "Accessible label for the theme list in the popup."
+  },
+  "buttonGuideTitle": {
+    "message": "বোতাম গাইড",
+    "description": "Section heading for the control button guide in the popup."
+  },
+  "buttonGuideSubtitle": {
+    "message": "বাম ক্লিক এবং ডান ক্লিক বিভিন্ন কাজ করতে পারে।",
+    "description": "Supporting text for the button guide section."
+  },
+  "leftClickLabel": {
+    "message": "বাম ক্লিক",
+    "description": "Label for left-click actions in the button guide."
+  },
+  "rightClickLabel": {
+    "message": "ডান ক্লিক",
+    "description": "Label for right-click actions in the button guide."
+  },
+  "resetButton": {
+    "message": "পুনঃস্থাপন",
+    "description": "Button that restores the default control bar theme."
+  },
+  "guideCategorySpeed": {
+    "message": "গতি",
+    "description": "Button guide category for playback speed controls."
+  },
+  "guideSpeedLeftClick": {
+    "message": "গতি 0.05x পরিবর্তন করে।",
+    "description": "Button guide left-click action for speed buttons."
+  },
+  "guideSpeedRightClick": {
+    "message": "গতি 0.10x পরিবর্তন করে।",
+    "description": "Button guide right-click action for speed buttons."
+  },
+  "guideCategoryCurrentSpeed": {
+    "message": "বর্তমান গতি",
+    "description": "Button guide category for the live speed indicator."
+  },
+  "guideCurrentSpeedLeftClick": {
+    "message": "গতি 1.00x-এ পুনঃস্থাপন করে।",
+    "description": "Button guide left-click action for the speed indicator."
+  },
+  "guideCurrentSpeedRightClick": {
+    "message": "কোনো দ্বিতীয় কাজ নেই।",
+    "description": "Button guide right-click action for the speed indicator."
+  },
+  "guideCategoryVolume": {
+    "message": "ভলিউম",
+    "description": "Button guide category for volume controls."
+  },
+  "guideVolumeLeftClick": {
+    "message": "ভলিউম ১০% পরিবর্তন করে। ১০০% এর উপরে ২০০% পর্যন্ত বুস্ট করতে পারে।",
+    "description": "Button guide left-click action for volume buttons."
+  },
+  "guideVolumeRightClick": {
+    "message": "ভলিউম ২০% পরিবর্তন করে।",
+    "description": "Button guide right-click action for volume buttons."
+  },
+  "guideCategoryCurrentVolume": {
+    "message": "বর্তমান ভলিউম",
+    "description": "Button guide category for the live volume indicator."
+  },
+  "guideCurrentVolumeLeftClick": {
+    "message": "ভলিউম ১০০% এ রিসেট করে।",
+    "description": "Button guide left-click action for the volume indicator."
+  },
+  "guideCurrentVolumeRightClick": {
+    "message": "কোনো দ্বিতীয় কাজ নেই।",
+    "description": "Button guide right-click action for the volume indicator."
+  },
+  "guideCategoryTime": {
+    "message": "সময়",
+    "description": "Button guide category for seek controls."
+  },
+  "guideTimeLeftClick": {
+    "message": "নির্দেশিত পরিমাণে পিছনে বা সামনে যায়।",
+    "description": "Button guide left-click action for seek buttons."
+  },
+  "guideTimeRightClick": {
+    "message": "বিন্দুতে পৌঁছানো পর্যন্ত 4x গতিতে সামনে যায়।",
+    "description": "Button guide right-click action for seek buttons."
+  },
+  "guideCategoryResolution": {
+    "message": "রেজোলিউশন",
+    "description": "Button guide category for quality controls."
+  },
+  "guideResolutionLeftClick": {
+    "message": "অটো বা নিকটতম রেজোলিউশন বেছে নেয়।",
+    "description": "Button guide left-click action for quality buttons."
+  },
+  "guideResolutionRightClick": {
+    "message": "রেজোলিউশন বোতামের লক্ষ্য পরিবর্তন করে।",
+    "description": "Button guide right-click action for quality buttons."
+  },
+  "guideCategoryMusic": {
+    "message": "মিউজিক মোড",
+    "description": "Button guide category for the music mode toggle."
+  },
+  "guideMusicLeftClick": {
+    "message": "মিউজিক মোড চালু বা বন্ধ করে। স্ক্রিন কালো করে এবং ডেটা ও সিস্টেম লোড কমাতে সর্বনিম্ন রেজোলিউশন বেছে নেয়।",
+    "description": "Button guide left-click action for the music mode button."
+  },
+  "guideMusicRightClick": {
+    "message": "কোনো দ্বিতীয় কাজ নেই।",
+    "description": "Button guide right-click action for the music mode button."
+  },
+  "guideCategoryCaptions": {
+    "message": "সাবটাইটেল",
+    "description": "Button guide category for the captions toggle."
+  },
+  "guideCaptionsLeftClick": {
+    "message": "উপলব্ধ থাকলে সাবটাইটেল চালু বা বন্ধ করে।",
+    "description": "Button guide left-click action for the captions button."
+  },
+  "guideCaptionsRightClick": {
+    "message": "কোনো দ্বিতীয় কাজ নেই।",
+    "description": "Button guide right-click action for the captions button."
+  },
+  "themeClassicName": {
+    "message": "ঐতিহ্যবাহী",
+    "description": "Display name for the Classic control bar theme."
+  },
+  "themeClassicDescription": {
+    "message": "সাদা বোতামসহ হালকা ধূসর বার, মূল শৈলীর সাথে মিল রেখে।",
+    "description": "Description for the Classic control bar theme."
+  },
+  "themeDarkName": {
+    "message": "অন্ধকার",
+    "description": "Display name for the Dark control bar theme."
+  },
+  "themeDarkDescription": {
+    "message": "রাতে ভিডিও দেখার জন্য কম আলোতে উপযুক্ত বার।",
+    "description": "Description for the Dark control bar theme."
+  },
+  "themeYoutubeName": {
+    "message": "YouTube",
+    "description": "Display name for the YouTube control bar theme."
+  },
+  "themeYoutubeDescription": {
+    "message": "লাল, সাদা ও কালো রঙে পরিচিত প্ল্যাটফর্মের রঙিন জোর।",
+    "description": "Description for the YouTube control bar theme."
+  },
+  "themeOceanName": {
+    "message": "সমুদ্র",
+    "description": "Display name for the Ocean control bar theme."
+  },
+  "themeOceanDescription": {
+    "message": "ভিডিওর উপর স্পষ্ট পাঠযোগ্যতার জন্য নরম নীল রঙ।",
+    "description": "Description for the Ocean control bar theme."
+  },
+  "themeRoseName": {
+    "message": "গোলাপী",
+    "description": "Display name for the Rose control bar theme."
+  },
+  "themeRoseDescription": {
+    "message": "উষ্ণ, সংক্ষিপ্ত এবং নরম রঙিন জোর।",
+    "description": "Description for the Rose control bar theme."
+  },
+  "speedDecreaseLabel": {
+    "message": "-5% | -10%",
+    "description": "Visible label for the decrease-speed button on the YouTube control bar."
+  },
+  "speedDecreaseTitle": {
+    "message": "ক্লিক: 0.05x কমান। ডান ক্লিক: 0.10x কমান",
+    "description": "Tooltip for the decrease-speed button on the YouTube control bar."
+  },
+  "speedIncreaseLabel": {
+    "message": "+5% | +10%",
+    "description": "Visible label for the increase-speed button on the YouTube control bar."
+  },
+  "speedIncreaseTitle": {
+    "message": "ক্লিক: 0.05x বাড়ান। ডান ক্লিক: 0.10x বাড়ান",
+    "description": "Tooltip for the increase-speed button on the YouTube control bar."
+  },
+  "seekRewind15Label": {
+    "message": "←15s",
+    "description": "Visible label for the 15-second rewind button."
+  },
+  "seekRewind15Title": {
+    "message": "15 সেকেন্ড পিছনে যান",
+    "description": "Tooltip for the 15-second rewind button."
+  },
+  "seekRewind30Label": {
+    "message": "←30s",
+    "description": "Visible label for the 30-second rewind button."
+  },
+  "seekRewind30Title": {
+    "message": "30 সেকেন্ড পিছনে যান",
+    "description": "Tooltip for the 30-second rewind button."
+  },
+  "seekRewind60Label": {
+    "message": "←60s",
+    "description": "Visible label for the 60-second rewind button."
+  },
+  "seekRewind60Title": {
+    "message": "60 সেকেন্ড পিছনে যান",
+    "description": "Tooltip for the 60-second rewind button."
+  },
+  "seekForward15Label": {
+    "message": "15s→",
+    "description": "Visible label for the 15-second forward button."
+  },
+  "seekForward15Title": {
+    "message": "15 সেকেন্ড সামনে যান",
+    "description": "Tooltip for the 15-second forward button."
+  },
+  "seekForward30Label": {
+    "message": "30s→",
+    "description": "Visible label for the 30-second forward button."
+  },
+  "seekForward30Title": {
+    "message": "30 সেকেন্ড সামনে যান",
+    "description": "Tooltip for the 30-second forward button."
+  },
+  "seekForward60Label": {
+    "message": "60s→",
+    "description": "Visible label for the 60-second forward button."
+  },
+  "seekForward60Title": {
+    "message": "60 সেকেন্ড সামনে যান",
+    "description": "Tooltip for the 60-second forward button."
+  },
+  "rateResetAriaLabel": {
+    "message": "প্লেব্যাক গতি 1.00x-এ পুনঃস্থাপন করুন",
+    "description": "Accessible label for the live playback speed indicator button."
+  },
+  "rateResetTitle": {
+    "message": "প্লেব্যাক গতি 1.00x-এ পুনঃস্থাপন করুন",
+    "description": "Tooltip for the live playback speed indicator button."
+  },
+  "qualityAutoLabel": {
+    "message": "Auto",
+    "description": "Visible label for the automatic quality button."
+  },
+  "qualityAutoTitle": {
+    "message": "YouTube অটো গুণমান নির্বাচন করুন",
+    "description": "Tooltip for the automatic quality button."
+  },
+  "qualityResolutionTitle": {
+    "message": "$RESOLUTION$p বা নিকটতম উপলব্ধ রেজোলিউশন নির্বাচন করুন",
+    "placeholders": {
+      "resolution": {
+        "content": "$1",
+        "example": "1080"
+      }
+    },
+    "description": "Tooltip for a fixed-resolution quality button on the YouTube control bar."
+  },
+  "captionsButtonLabel": {
+    "message": "CC",
+    "description": "Visible label for the captions toggle button."
+  },
+  "musicModeEnableAriaLabel": {
+    "message": "গান শোনার মোড সক্রিয় করুন",
+    "description": "Accessible label when music mode is disabled."
+  },
+  "musicModeEnableTitle": {
+    "message": "গান শোনার মোড সক্রিয় করুন",
+    "description": "Tooltip when music mode is disabled."
+  },
+  "musicModeDisableAriaLabel": {
+    "message": "গান শোনার মোড নিষ্ক্রিয় করুন",
+    "description": "Accessible label when music mode is enabled."
+  },
+  "musicModeDisableTitle": {
+    "message": "গান শোনার মোড নিষ্ক্রিয় করুন",
+    "description": "Tooltip when music mode is enabled."
+  },
+  "captionsEnableAriaLabel": {
+    "message": "ক্যাপশন সক্রিয় করুন",
+    "description": "Accessible label when captions are disabled."
+  },
+  "captionsDisableAriaLabel": {
+    "message": "ক্যাপশন নিষ্ক্রিয় করুন",
+    "description": "Accessible label when captions are enabled."
+  },
+  "captionsEnableTitle": {
+    "message": "ক্যাপশন সক্রিয় করুন (Z)",
+    "description": "Tooltip when captions are available but disabled."
+  },
+  "captionsDisableTitle": {
+    "message": "ক্যাপশন নিষ্ক্রিয় করুন (Z)",
+    "description": "Tooltip when captions are enabled."
+  },
+  "captionsUnavailableTitle": {
+    "message": "এই ভিডিওর জন্য ক্যাপশন উপলব্ধ নয়",
+    "description": "Tooltip when captions cannot be toggled for the current video."
+  },
+  "pinEnableAriaLabel": {
+    "message": "প্লেয়ার নিয়ন্ত্রণ আটকে রাখুন",
+    "description": "Accessible label when player controls are not pinned."
+  },
+  "pinEnableTitle": {
+    "message": "প্লেয়ার নিয়ন্ত্রণ আটকে রাখুন",
+    "description": "Tooltip when player controls are not pinned."
+  },
+  "pinDisableAriaLabel": {
+    "message": "প্লেয়ার নিয়ন্ত্রণ খুলে দিন",
+    "description": "Accessible label when player controls are pinned."
+  },
+  "pinDisableTitle": {
+    "message": "প্লেয়ার নিয়ন্ত্রণ খুলে দিন",
+    "description": "Tooltip when player controls are pinned."
+  },
+  "controlBarSectionsTitle": {
+    "message": "দৃশ্যমান বিভাগ",
+    "description": "Section heading for choosing which control bar groups are visible on YouTube."
+  },
+  "controlBarSectionsSubtitle": {
+    "message": "প্লেয়ার বারে কোন গ্রুপ দেখাবে তা বেছে নিন।",
+    "description": "Supporting text for the visible control bar sections picker."
+  },
+  "controlBarSectionsAriaLabel": {
+    "message": "দৃশ্যমান কন্ট্রোল বার বিভাগ",
+    "description": "Accessible label for the visible control bar sections switch list."
+  },
+  "controlBarSectionTime": {
+    "message": "সময় নিয়ন্ত্রণ",
+    "description": "Label for the seek/time control bar section visibility switch."
+  },
+  "controlBarSectionSpeed": {
+    "message": "গতি নিয়ন্ত্রণ",
+    "description": "Label for the playback speed control bar section visibility switch."
+  },
+  "controlBarSectionQuality": {
+    "message": "গুণমান নিয়ন্ত্রণ",
+    "description": "Label for the video quality control bar section visibility switch."
+  },
+  "controlBarSectionMusic": {
+    "message": "মিউজিক মোড",
+    "description": "Label for the music mode control bar section visibility switch."
+  },
+  "controlBarSectionCaptions": {
+    "message": "সাবটাইটেল",
+    "description": "Label for the captions control bar section visibility switch."
+  },
+  "controlBarSectionPin": {
+    "message": "কন্ট্রোল পিন করুন",
+    "description": "Label for the pin controls section visibility switch."
+  },
+  "resetSectionsButton": {
+    "message": "বিভাগ রিসেট করুন",
+    "description": "Button that restores the default visible control bar sections."
+  },
+  "controlBarSectionVolume": {
+    "message": "ভলিউম নিয়ন্ত্রণ",
+    "description": "Label for the volume control bar section visibility switch."
+  },
+  "volumeDecreaseLabel": {
+    "message": "🔉 -10%",
+    "description": "Visible label for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeDecreaseTitle": {
+    "message": "ক্লিক: ১০% কমান। ডান ক্লিক: ২০% কমান",
+    "description": "Tooltip for the decrease-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseLabel": {
+    "message": "🔊 +10%",
+    "description": "Visible label for the increase-volume button on the YouTube control bar."
+  },
+  "volumeIncreaseTitle": {
+    "message": "ক্লিক: ১০% বাড়ান। ডান ক্লিক: ২০% বাড়ান",
+    "description": "Tooltip for the increase-volume button on the YouTube control bar."
+  }
+}

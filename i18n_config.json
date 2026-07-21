@@ -1,0 +1,20 @@
+{
+  "includeGlobs": [
+    "src/popup/**/*.{ts,tsx,js,jsx}",
+    "src/popup/**/*.html",
+    "src/shared/**/*.{ts,tsx,js,jsx}",
+    "src/content/**/*.{ts,tsx,js,jsx}"
+  ],
+  "excludeGlobs": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/coverage/**",
+    "**/src/generated/**",
+    "**/*.test.ts",
+    "**/*.d.ts",
+    "src/shared/theme-preferences.ts",
+    "src/content/youtube-native-ui-labels.ts",
+    "src/content/index.iife.ts",
+    "src/content/youtube-speed.ts"
+  ]
+}

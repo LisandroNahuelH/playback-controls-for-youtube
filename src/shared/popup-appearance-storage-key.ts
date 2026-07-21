@@ -1,0 +1,1 @@
+export const POPUP_APPEARANCE_STORAGE_KEY = 'playbackControlsForYoutubePopupAppearance';

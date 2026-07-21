@@ -1,0 +1,1 @@
+export const CONTROL_BAR_SECTION_STORAGE_KEY = 'playbackControlsForYoutubeVisibleSections';

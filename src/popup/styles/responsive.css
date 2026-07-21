@@ -1,0 +1,36 @@
+@media (max-width: 700px) {
+  body {
+    width: 390px;
+    min-width: 390px;
+    min-height: 560px;
+  }
+
+  .popup-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .popup-col--themes {
+    min-width: 0;
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .popup-col--themes .reset-button {
+    margin-top: 14px;
+  }
+
+  .popup-col--guide {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .popup-header {
+    align-items: flex-start;
+  }
+
+  .appearance-toggle {
+    width: 40px;
+  }
+}

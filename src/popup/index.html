@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="popup-shell">
+      <header class="popup-header">
+        <div>
+          <h1 data-role="popup-header-title"></h1>
+          <p data-role="popup-header-subtitle"></p>
+        </div>
+        <button class="appearance-toggle" type="button" data-action="toggle-popup-appearance"></button>
+      </header>
+
+      <div class="popup-grid">
+        <div class="popup-col popup-col--themes">
+          <section class="preview" data-role="preview-section">
+            <div class="preview-bar" data-role="preview-bar"></div>
+          </section>
+
+          <div class="section-heading">
+            <h2 data-role="themes-title"></h2>
+            <p data-role="themes-subtitle"></p>
+          </div>
+          <section class="theme-list" data-role="theme-list"></section>
+          <button class="reset-button" type="button" data-action="reset"></button>
+
+          <div class="section-heading">
+            <h2 data-role="sections-title"></h2>
+            <p data-role="sections-subtitle"></p>
+          </div>
+          <section class="section-toggle-list" data-role="section-toggle-list"></section>
+          <button class="reset-button" type="button" data-action="reset-sections"></button>
+        </div>
+
+        <div class="popup-col popup-col--guide">
+          <section class="usage-guide" aria-labelledby="usage-guide-title">
+            <div class="section-heading">
+              <h2 id="usage-guide-title" data-role="button-guide-title"></h2>
+              <p data-role="button-guide-subtitle"></p>
+            </div>
+            <div class="guide-list" data-role="guide-list"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="./index.ts"></script>
+  </body>
+</html>
