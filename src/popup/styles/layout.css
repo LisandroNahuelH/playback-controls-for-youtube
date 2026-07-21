@@ -26,8 +26,9 @@
   min-width: 312px;
   max-height: 510px;
   overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--scrollbar-thumb) transparent;
+  scrollbar-gutter: stable;
+  scrollbar-width: auto;
+  scrollbar-color: var(--scrollbar-thumb) color-mix(in srgb, var(--surface-strong, #0c1b27) 70%, transparent 30%);
   padding-right: 4px;
 }
 
@@ -40,28 +41,29 @@
   min-width: 0;
   max-height: 510px;
   overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--scrollbar-thumb) transparent;
+  scrollbar-gutter: stable;
+  scrollbar-width: auto;
+  scrollbar-color: var(--scrollbar-thumb) color-mix(in srgb, var(--surface-strong, #0c1b27) 70%, transparent 30%);
   padding-right: 4px;
 }
 
 .popup-col--themes::-webkit-scrollbar,
 .popup-col--guide::-webkit-scrollbar {
-  width: 10px;
+  width: 15px;
 }
 
 .popup-col--themes::-webkit-scrollbar-track,
 .popup-col--guide::-webkit-scrollbar-track {
+  border-left: 1px solid var(--scrollbar-track-border);
   border-radius: 999px;
   background: var(--scrollbar-track-bg);
   box-shadow: var(--scrollbar-track-shadow);
-  border: 1px solid var(--scrollbar-track-border);
 }
 
 .popup-col--themes::-webkit-scrollbar-thumb,
 .popup-col--guide::-webkit-scrollbar-thumb {
-  min-height: 40px;
-  border: 2px solid transparent;
+  min-height: 54px;
+  border: 3px solid transparent;
   border-radius: 999px;
   background-clip: padding-box;
   background: linear-gradient(
@@ -70,6 +72,33 @@
     var(--scrollbar-thumb) 48%,
     var(--scrollbar-thumb-strong)
   );
+  box-shadow: var(--scrollbar-thumb-shadow);
+}
+
+.popup-col--themes::-webkit-scrollbar-thumb:hover,
+.popup-col--guide::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--scrollbar-thumb-hover) 38%, white 62%),
+    var(--scrollbar-thumb-hover) 46%,
+    var(--scrollbar-thumb-hover-strong)
+  );
+  box-shadow: var(--scrollbar-thumb-hover-shadow);
+}
+
+.popup-col--themes::-webkit-scrollbar-thumb:active,
+.popup-col--guide::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--scrollbar-thumb-active) 38%, white 62%),
+    var(--scrollbar-thumb-active) 46%,
+    var(--scrollbar-thumb-active-strong)
+  );
+}
+
+.popup-col--themes::-webkit-scrollbar-corner,
+.popup-col--guide::-webkit-scrollbar-corner {
+  background: transparent;
 }
 
 .popup-header {
