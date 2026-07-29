@@ -1,3 +1,4 @@
+import { sendAnonymousHeartbeat } from '../features/heartbeat/send-anonymous-heartbeat';
 import { DEFAULT_VISIBLE_CONTROL_BAR_SECTIONS } from '../shared/control-bar-sections';
 import { DEFAULT_POPUP_APPEARANCE_ID } from '../shared/popup-appearance-preferences';
 import { setDocumentLocaleAttributes } from '../shared/runtime-i18n';
@@ -19,6 +20,7 @@ import { setVisibleSections } from './set-visible-sections';
 import { togglePopupAppearance } from './toggle-popup-appearance';
 
 export async function initPopup(): Promise<void> {
+  void sendAnonymousHeartbeat('ping');
   const context: PopupContext = {
     elements: getPopupElements(),
     state: {

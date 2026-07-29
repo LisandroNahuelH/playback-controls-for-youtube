@@ -1,6 +1,6 @@
 {
   "name": "playback-controls-for-youtube-tm",
-  "version": "0.3.10",
+  "version": "0.3.11",
   "private": true,
   "type": "module",
   "description": "Playback Controls for Youtube™ adds quick playback speed, seek, quality, captions, and style controls to YouTube.",

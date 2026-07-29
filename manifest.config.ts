@@ -6,7 +6,7 @@ export default defineManifest({
   manifest_version: 3,
   default_locale: 'en',
   name: '__MSG_extName__',
-  version: '0.3.10',
+  version: '0.3.11',
   description: '__MSG_extDescription__',
   icons: {
     16: 'icons/icon-16.png',
@@ -25,6 +25,14 @@ export default defineManifest({
     }
   },
   permissions: ['storage'],
+  host_permissions: [
+    'https://www.premium11.com/*',
+    'https://premium11.com/*'
+  ],
+  background: {
+    service_worker: 'src/background/index.ts',
+    type: 'module'
+  },
   content_scripts: [
     {
       matches,
