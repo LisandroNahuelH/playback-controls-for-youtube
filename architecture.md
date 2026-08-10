@@ -23,3 +23,7 @@ Product slug `youtube-playback-speed` must match Premium11 `lib/stats/products.t
 ## Portability note
 
 Player/control-bar logic stays in content scripts and shared prefs; heartbeat is isolated under `src/features/heartbeat/` with no YouTube DOM rules inside those modules.
+
+## Build pipeline
+
+Vite + `@crxjs/vite-plugin` emits separate loaders for the service worker (`service-worker-loader.js`) and content script (`assets/index.iife.ts-loader-*.js`). A post-build `inlineContentScript()` plugin esbuild-bundles the content chunk into the **index.iife loader only** as a classic IIFE (no dynamic `import`, Brave-safe). The SW loader must remain a thin ESM import of `src/background/index.ts`; mis-targeting the SW loader inlines ~50KB of YouTube UI code into the background and leaves the content loader pointing at a deleted chunk — overlay never mounts.
