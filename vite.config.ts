@@ -19,7 +19,7 @@ function inlineContentScript(): Plugin {
       let mainChunkName: string | null = null;
 
       for (const [fileName, file] of Object.entries(bundle)) {
-        if (fileName.includes('loader') && fileName.endsWith('.js')) {
+        if (fileName.includes('index.iife') && fileName.includes('loader') && fileName.endsWith('.js')) {
           loaderFileName = fileName;
           // Parse the import inside the emitted code to find the target
           if (file.type === 'chunk' || 'code' in file) {
@@ -36,7 +36,7 @@ function inlineContentScript(): Plugin {
         // Fallback: scan disk for any *-loader-*.js
         try {
           const files = fs.readdirSync(assetsDir);
-          const candidate = files.find((f) => f.includes('loader') && f.endsWith('.js'));
+          const candidate = files.find((f) => f.includes('index.iife') && f.includes('loader') && f.endsWith('.js'));
           if (candidate) loaderFileName = 'assets/' + candidate;
         } catch {}
       }
