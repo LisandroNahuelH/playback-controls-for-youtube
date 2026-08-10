@@ -3,6 +3,8 @@
 ## Build
 
 - `npm run build` → `dist/`. Reload unpacked extension manually after build.
+- Post-build plugin `inlineContentScript()` in `vite.config.ts` bundles the content script into a classic IIFE at `assets/index.iife.ts-loader-*.js` (Brave compatibility). **Must match only `index.iife` loaders** — never `service-worker-loader.js` (would break SW + YouTube overlay).
+- After build, verify log: `[inline-content] Inlined content script for Brave compatibility: assets/index.iife.ts-loader-...` and `service-worker-loader.js` stays a tiny `import './assets/index.ts-...js'`.
 
 ## Heartbeat (anonymous diagnostics)
 
