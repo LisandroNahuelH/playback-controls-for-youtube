@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Playback Controls for Youtube - social preview (1280x640)</title>
+<!-- Render: chrome --headless=new --force-device-scale-factor=2 --window-size=1280,640 --screenshot=sp-2x.png assets/social-preview.html, then downscale to 1280x640. -->
+<style>
+  html, body { margin: 0; padding: 0; }
+  body {
+    width: 1280px; height: 640px; box-sizing: border-box;
+    background:
+      radial-gradient(720px 420px at 8% 6%, rgba(224, 0, 0, 0.16), transparent 62%),
+      radial-gradient(760px 460px at 96% 96%, rgba(17, 173, 50, 0.14), transparent 62%),
+      linear-gradient(135deg, #0e0f12 0%, #14151a 55%, #1a1b21 100%);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    color: #ffffff;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 0 88px; position: relative;
+  }
+  .row { display: flex; align-items: center; gap: 44px; }
+  .icon {
+    width: 196px; height: 196px; border-radius: 42px; flex: 0 0 auto;
+    box-shadow: 0 26px 64px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.07);
+  }
+  h1 { font-size: 62px; line-height: 1.06; margin: 0 0 14px; letter-spacing: -1.2px; font-weight: 700; }
+  .sub { font-size: 25px; margin: 0; color: #c9cbd4; font-weight: 400; }
+  .chips { margin-top: 30px; display: flex; gap: 12px; flex-wrap: wrap; }
+  .chip {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 999px; padding: 10px 21px; font-size: 21px; color: #e8e9ee;
+  }
+  .footer {
+    position: absolute; left: 88px; right: 88px; bottom: 44px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 21px; color: #9a9daa;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand img { height: 26px; width: auto; }
+  .brand b { color: #e8e9ee; font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <img class="icon" src="../public/icons/icon-128.png" alt="">
+    <div>
+      <h1>Playback Controls<br>for Youtube&trade;</h1>
+      <p class="sub">Speed, seek, quality, captions and themes - right on the player.</p>
+      <div class="chips">
+        <span class="chip">0.05x speed steps</span>
+        <span class="chip">15 / 30 / 60s seek</span>
+        <span class="chip">quality presets</span>
+        <span class="chip">captions</span>
+        <span class="chip">5 themes</span>
+        <span class="chip">music mode</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <span class="brand"><img src="../public/brand/premium11-mark.svg" alt=""><b>Premium11</b>&nbsp; extension for Chrome</span>
+    <span>open source &middot; MIT license</span>
+  </div>
+</body>
+</html>
