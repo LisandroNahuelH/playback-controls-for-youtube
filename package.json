@@ -4,6 +4,18 @@
   "private": true,
   "type": "module",
   "description": "Playback Controls for Youtube™ adds quick playback speed, seek, quality, captions, and style controls to YouTube.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LisandroNahuelH/playback-controls-for-youtube.git"
+  },
+  "homepage": "https://chromewebstore.google.com/detail/lmelkfedknejbehkbmoehdmnmoloaflo",
+  "bugs": {
+    "url": "https://github.com/LisandroNahuelH/playback-controls-for-youtube/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "i18n:bootstrap-locale": "node scripts/bootstrap-i18n-locale.mjs",
     "i18n:bootstrap-all": "node scripts/bootstrap-all-locales.mjs",
