@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Chrome Web Store listing
+    url: "https://chromewebstore.google.com/detail/lmelkfedknejbehkbmoehdmnmoloaflo"
+    about: Install the extension, or leave a review.
+  - name: Security report
+    url: "https://github.com/LisandroNahuelH/playback-controls-for-youtube/security/policy"
+    about: Report vulnerabilities privately - see SECURITY.md.
