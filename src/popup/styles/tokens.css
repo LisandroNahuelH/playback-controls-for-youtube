@@ -64,8 +64,9 @@
   --preview-grid: rgba(255, 255, 255, 0.05);
   --preview-start: rgba(14, 33, 47, 0.55);
   --preview-end: rgba(6, 16, 24, 0.85);
-  --scrollbar-thumb: rgba(17, 173, 50, 0.96);
-  --scrollbar-thumb-strong: rgba(12, 140, 40, 0.94);
+  --surface-strong: rgba(12, 27, 39, 0.94);
+  --scrollbar-thumb: #11ad32;
+  --scrollbar-thumb-strong: #0c8c28;
   --scrollbar-track-border: rgba(255, 255, 255, 0.06);
   --scrollbar-track-bg:
     linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.015)),
@@ -75,16 +76,16 @@
     inset 0 0 0 1px rgba(255, 255, 255, 0.03);
   --scrollbar-thumb-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.55),
-    0 0 0 1px rgba(95, 231, 140, 0.14),
-    0 0 18px rgba(17, 173, 50, 0.28);
-  --scrollbar-thumb-hover: rgba(46, 200, 80, 0.98);
-  --scrollbar-thumb-hover-strong: rgba(17, 173, 50, 0.96);
+    0 0 0 1px rgba(17, 173, 50, 0.22),
+    0 0 18px rgba(17, 173, 50, 0.36);
+  --scrollbar-thumb-hover: #2ec850;
+  --scrollbar-thumb-hover-strong: #11ad32;
   --scrollbar-thumb-hover-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.62),
-    0 0 0 1px rgba(95, 231, 140, 0.2),
-    0 0 22px rgba(17, 173, 50, 0.34);
-  --scrollbar-thumb-active: rgba(17, 173, 50, 0.96);
-  --scrollbar-thumb-active-strong: rgba(10, 120, 34, 0.94);
+    0 0 0 1px rgba(17, 173, 50, 0.28),
+    0 0 22px rgba(17, 173, 50, 0.44);
+  --scrollbar-thumb-active: #11ad32;
+  --scrollbar-thumb-active-strong: #0a7822;
   --switch-off: rgba(255, 255, 255, 0.16);
   --font-ui: "Montserrat", "Segoe UI Variable", "Segoe UI", "Trebuchet MS", sans-serif;
 }
@@ -151,8 +152,9 @@
   --preview-grid: rgba(190, 161, 119, 0.12);
   --preview-start: rgba(255, 249, 239, 0.9);
   --preview-end: rgba(232, 216, 188, 0.95);
-  --scrollbar-thumb: rgba(17, 173, 50, 0.9);
-  --scrollbar-thumb-strong: rgba(12, 140, 40, 0.9);
+  --surface-strong: rgba(255, 249, 239, 0.98);
+  --scrollbar-thumb: #11ad32;
+  --scrollbar-thumb-strong: #0c8c28;
   --scrollbar-track-border: rgba(190, 161, 119, 0.18);
   --scrollbar-track-bg:
     linear-gradient(180deg, rgba(255, 252, 245, 0.96), rgba(241, 232, 214, 0.86)),
@@ -162,15 +164,15 @@
     inset 0 0 0 1px rgba(190, 161, 119, 0.08);
   --scrollbar-thumb-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.84),
-    0 0 0 1px rgba(17, 173, 50, 0.16),
-    0 0 18px rgba(17, 173, 50, 0.18);
-  --scrollbar-thumb-hover: rgba(46, 200, 80, 0.96);
-  --scrollbar-thumb-hover-strong: rgba(17, 173, 50, 0.94);
+    0 0 0 1px rgba(17, 173, 50, 0.2),
+    0 0 18px rgba(17, 173, 50, 0.22);
+  --scrollbar-thumb-hover: #2ec850;
+  --scrollbar-thumb-hover-strong: #11ad32;
   --scrollbar-thumb-hover-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.88),
-    0 0 0 1px rgba(17, 173, 50, 0.2),
-    0 0 22px rgba(17, 173, 50, 0.22);
-  --scrollbar-thumb-active: rgba(17, 173, 50, 0.96);
-  --scrollbar-thumb-active-strong: rgba(10, 120, 34, 0.94);
+    0 0 0 1px rgba(17, 173, 50, 0.24),
+    0 0 22px rgba(17, 173, 50, 0.28);
+  --scrollbar-thumb-active: #11ad32;
+  --scrollbar-thumb-active-strong: #0a7822;
   --switch-off: rgba(190, 161, 119, 0.42);
 }

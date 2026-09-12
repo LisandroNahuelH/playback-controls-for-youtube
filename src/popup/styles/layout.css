@@ -28,7 +28,7 @@
   overflow-y: auto;
   scrollbar-gutter: stable;
   scrollbar-width: auto;
-  scrollbar-color: var(--scrollbar-thumb) color-mix(in srgb, var(--surface-strong, #0c1b27) 70%, transparent 30%);
+  scrollbar-color: var(--scrollbar-thumb) color-mix(in srgb, var(--surface-strong) 70%, transparent 30%);
   padding-right: 4px;
 }
 
@@ -43,7 +43,7 @@
   overflow-y: auto;
   scrollbar-gutter: stable;
   scrollbar-width: auto;
-  scrollbar-color: var(--scrollbar-thumb) color-mix(in srgb, var(--surface-strong, #0c1b27) 70%, transparent 30%);
+  scrollbar-color: var(--scrollbar-thumb) color-mix(in srgb, var(--surface-strong) 70%, transparent 30%);
   padding-right: 4px;
 }
 
@@ -68,8 +68,8 @@
   background-clip: padding-box;
   background: linear-gradient(
     180deg,
-    color-mix(in srgb, var(--scrollbar-thumb) 42%, white 58%),
-    var(--scrollbar-thumb) 48%,
+    color-mix(in srgb, var(--scrollbar-thumb) 78%, white 22%),
+    var(--scrollbar-thumb) 42%,
     var(--scrollbar-thumb-strong)
   );
   box-shadow: var(--scrollbar-thumb-shadow);
@@ -79,8 +79,8 @@
 .popup-col--guide::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(
     180deg,
-    color-mix(in srgb, var(--scrollbar-thumb-hover) 38%, white 62%),
-    var(--scrollbar-thumb-hover) 46%,
+    color-mix(in srgb, var(--scrollbar-thumb-hover) 74%, white 26%),
+    var(--scrollbar-thumb-hover) 42%,
     var(--scrollbar-thumb-hover-strong)
   );
   box-shadow: var(--scrollbar-thumb-hover-shadow);
@@ -90,8 +90,8 @@
 .popup-col--guide::-webkit-scrollbar-thumb:active {
   background: linear-gradient(
     180deg,
-    color-mix(in srgb, var(--scrollbar-thumb-active) 38%, white 62%),
-    var(--scrollbar-thumb-active) 46%,
+    color-mix(in srgb, var(--scrollbar-thumb-active) 74%, white 26%),
+    var(--scrollbar-thumb-active) 42%,
     var(--scrollbar-thumb-active-strong)
   );
 }
@@ -120,10 +120,35 @@
   min-width: 0;
 }
 
+/* Outside cards — top-left brand (click → premium11.com) */
 .p11-brand {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  flex: 0 0 auto;
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  transition:
+    opacity 160ms ease,
+    transform 120ms ease;
+}
+
+.p11-brand:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.p11-brand:focus-visible {
+  outline: 2px solid var(--focus, #ffb07a);
+  outline-offset: 3px;
 }
 
 .p11-brand__mark {
@@ -150,6 +175,15 @@
 .p11-brand__name::after {
   content: "11";
   color: #11ad32;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .p11-brand {
+    transition: none;
+  }
+  .p11-brand:hover {
+    transform: none;
+  }
 }
 
 .section-heading {
