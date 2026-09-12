@@ -18,7 +18,7 @@ Popup open     → heartbeat ping (24h throttle)
 SW boot        → setUninstallURL → /goodbye/youtube-playback-speed
 ```
 
-Product slug `youtube-playback-speed` must match Premium11 `lib/stats/products.ts` allowlist. Install id in `chrome.storage.local` (`ypsInstallId`).
+Product slug `youtube-playback-speed` must match the Premium11 backend product allowlist. Install id in `chrome.storage.local` (`ypsInstallId`).
 
 ## Portability note
 
